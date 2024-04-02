@@ -1,0 +1,59 @@
+/** No CSS for this example */
+.teste {
+    display:flex;
+    flex-direction:column;
+  }
+  
+  .content {
+    background-color: #1E222403;
+    height:200px;
+    margin-inline:-24px;
+    margin-bottom:-24px;
+    padding:24px; /* padding-200 */
+  }
+  
+  .teste2 {
+   
+    
+    margin-block:auto;
+  }
+  
+  .title {
+    font: bold 18px/135% "Roboto", sans-serif; /* typography-label-strong*/
+    color:#1E2224;
+  }
+  
+  .description {
+    font: normal 14px/135% "Roboto", sans-serif; /* typography-small-regular*/
+    color:#969696;
+  }
+  
+  .header {
+    max-height:56px;
+  }
+  
+  .teste2:hover {
+    
+  
+    margin-block:auto;
+  }
+  
+  .mat-expansion-panel-header {
+    min-height:56px;
+    background-color:#fefefd;
+  }
+  
+  
+  
+  .mat-expansion-panel-header.mat-expanded,
+  .mat-expansion-panel-header.mat-expanded:hover {
+    background: #0070c010;
+  }
+  
+  .mat-expansion-panel-header,
+  .mat-expansion-panel-header.mat-collapsed:hover {
+   background: #0070c040;
+  }
+  
+   
+::ng-deep .mat-expansion-indicator::after { color:#1E2224;}

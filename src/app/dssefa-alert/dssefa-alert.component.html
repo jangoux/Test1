@@ -1,0 +1,16 @@
+<div class="alert" [ngClass]="{
+    'warning': variant === 'warning',
+    'success': variant === 'success',
+    'attention': variant === 'attention',
+    'info': variant ==='info',
+  }">
+    <div class="header">
+        <div class="icon"><mat-icon>{{ icon }}</mat-icon></div>
+        <div class="title-container">{{ title }}</div>
+        <div class="icon-close"><mat-icon>close</mat-icon></div>
+    </div>
+    <div class="description">{{ description }}</div>
+    <div class="cta" appDynamicComponent>
+        <ng-content select="[cta-content]"></ng-content>
+    </div>
+</div>

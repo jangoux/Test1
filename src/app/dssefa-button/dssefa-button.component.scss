@@ -1,0 +1,201 @@
+/* classe geral dos botões */
+
+
+
+.button {
+    display:flex;
+    padding-inline:var(--padding-250);
+    border-radius:var(--border-radius-default);
+    width:fit-content;
+    align-items: center;
+    
+}
+
+/* propriedades gerais dos labels */
+
+* > .label {
+    margin-inline:var(--padding-200);
+    font: var(--typography-label-medium);
+}
+
+/*propriedades gerais de icones */
+
+* > .icon {
+    width:var(--size-300) !important;
+    height:var(--size-300) !important;
+}
+
+/* primary button */
+.primary{
+    background-color: #005faf !important; /* necessita token correto */
+    border-color: var(--border-color-action);
+   
+   
+}
+    
+ 
+.primary:hover{
+    background-color: lighten(#005faf,7%) !important;
+}
+
+.primary:active{
+    background-color: darken(#005faf,7%) !important;
+}
+
+
+.primary > .label {
+        color:var(--text-color-on-color-title); 
+}
+    
+.primary > .icon {
+        color:var(--icon-color-on-color);
+}
+
+  
+/* secondary button */
+
+.secondary{
+        background-color: #fefefd !important; /* necessita token */
+        border-color: var(--border-color-action);
+
+}
+ 
+.secondary:hover{
+    background-color: #fefefd !important;
+   
+
+}
+ 
+.secondary:active{
+    background-color: #fefefd !important;
+    
+
+}
+.secondary > .label {
+        color:var(--text-color-action);
+
+}
+        
+ .secondary > .icon {
+     color:var(--icon-color-action);
+ }
+
+/* warning button */
+        
+.warning{
+     background-color: red !important;
+     border-color: var(--border-color-warning);
+       
+}
+
+/*hover e active de ambos os warnings */
+
+.warning:hover,.warning-secondary:hover{
+    background-color: red !important;
+   
+      
+}
+
+.warning:active,.warning-secondary:active{
+        background-color: red !important;
+        
+          
+   
+}
+        
+        
+.warning > .label {
+           color:var(--text-color-on-color-title);
+}
+        
+.warning > .icon {
+            color:var(--icon-color-on-color);
+}
+
+/* warning secondary */
+
+.warning-secondary{
+    background-color: #fefefd !important;
+    border-color: var(--border-color-warning);
+    
+    }
+
+
+    
+.warning-secondary> .label {
+    color:var(--text-color-warning);
+        
+ }
+
+ .warning-secondary> .icon {
+    color:var(--icon-color-on-color);
+        
+ }
+    
+
+.warning-secondary:hover,.warning-secondary:active > .label {
+    color:var(--text-color-on-color-title);
+}
+
+.warning-secondary:hover,.warning-secondary:active > .icon {
+    color:var(--icon-color-on-color);
+}
+
+/* disabled */
+
+.disabled{
+    background-color: var(--color-bg-disabled)!important;
+    border-color: var(--color-border-disabled);
+}
+            
+            
+.disabled > .label {
+    color: var(--text-color-disabled);
+}
+            
+.disabled > .icon {
+    color:var(--icon-color-disabled);
+ }
+
+ /* tertiary button */
+
+.tertiary{
+background-color: #fefefd !important;
+border-color: var(--border-color-action);
+}
+
+.tertiary:hover{
+    background-color: #005faf !important;
+    
+}
+
+.tertiary:active{
+        background-color: #fefefd !important;
+       
+}
+                
+                
+.tertiary > .label {
+    color:var(--text-color-action);
+                    
+}
+                
+.tetriary > .icon {
+   color:var(--icon-color-action);
+}
+
+            
+
+/* size variants */
+
+.size-lg {
+    height:var(--size-700);
+}
+
+.size-md {
+    height:var(--size-600);
+}
+
+.size-sm {
+    height:var(--size-500);
+}
