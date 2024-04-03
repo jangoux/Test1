@@ -6,11 +6,15 @@
   }">
     <div class="header">
         <div class="icon"><mat-icon>{{ icon }}</mat-icon></div>
-        <div class="title-container">{{ title }}</div>
+        <div class="title-container">
+            <ng-content select="[title]"></ng-content>
+        </div>
         <div class="icon-close"><mat-icon>close</mat-icon></div>
     </div>
-    <div class="description">{{ description }}</div>
-    <div class="cta" appDynamicComponent>
+    <div class="description">
+        <ng-content select="[description]"></ng-content>
+    </div>
+    <div class="cta">
         <ng-content select="[cta-content]"></ng-content>
     </div>
 </div>
