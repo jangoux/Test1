@@ -1,0 +1,15 @@
+<button class="button" mat-icon-button [ngClass]="{
+    'primary': variant === 'primary',
+    'secondary': variant === 'secondary',
+    'warning': variant === 'warning',
+    'disabled': variant ==='disabled',
+    'tertiary': variant ==='tertiary',
+    'size-lg': size === 'lg',
+    'size-md': size === 'md',
+    'size-sm': size === 'sm',
+  }">
+    <mat-icon class="left-icon icon">{{ icon }}</mat-icon>
+    <span class="label"> {{ label }} </span>
+    <mat-icon class="right-icon icon">{{ icon }}</mat-icon>
+  </button>
+  

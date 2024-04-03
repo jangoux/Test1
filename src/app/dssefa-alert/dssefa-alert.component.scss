@@ -1,0 +1,73 @@
+/* propriedades gerais pra todos os alerts */
+
+.alert {
+    padding-inline:var(--padding-300);
+    padding-block:var(--padding-300);
+    column-gap:var(--gap-200);
+    border-radius: var(--border-radius-default);
+   
+}
+
+/*variantes*/
+
+.success {
+    background-color: var(--color-bg-success);
+}
+
+.attention {
+    background-color: var(--color-bg-attention);
+}
+
+.info {
+    background-color: var(--color-bg-info);
+}
+
+.warning {
+    background-color: var(--color-bg-warning-tint);
+}
+
+
+/*estrutura*/
+.header{
+display:flex;
+}
+
+.title-container{
+    font:var(--typography-paragraph-strong);
+    color:var(--text-color-title);
+    display:flex;
+    flex:1;
+}
+
+
+
+.icon-close{
+    color:var(--icon-color-default);
+    height:var(--icon-size-default);
+    width:var(--icon-size-default);
+}
+
+.icon {
+        color:var(--icon-color-default);
+        height:var(--icon-size-default);
+        width:var(--icon-size-default);
+        margin-right:var(--gap-200);
+        }
+ 
+
+
+.description{
+    font:var(--typography-paragraph-regular);
+    color:var(--text-color-body);
+    padding-left:var(--padding-600);
+}
+
+/* classe para uso dos ctas no fim do alert */
+.cta{
+    display:flex;
+    flex:1;
+    justify-content: flex-end;
+    row-gap: var(--gap-200);
+    background-color:red;
+    margin-left:var(--padding-600);
+}
