@@ -1,0 +1,26 @@
+.card {
+    background-color: var(--container-color-secondary);
+    padding: var(--padding-500);
+    
+}
+
+.card-header {
+    color:var(--text-color-title);
+    font: var(--typography-h4);
+    margin-bottom:var(--padding-300);
+}
+
+.card-body {
+    display:grid;
+   grid-template-columns: repeat(auto-fill, minmax(480px,1fr)); 
+   row-gap: var(--gap-200);
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .card-body {
+        grid-template-columns: repeat(auto-fill, 1fr); 
+    }
+  }
+  

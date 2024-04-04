@@ -1,21 +1,20 @@
-/** No CSS for this example */
-.teste {
+.accordion {
+  box-sizing: border-box;
+}
+
+.title-container {
     display:flex;
     flex-direction:column;
-  }
-  
-  .content {
-    background-color: #1E222403;
-    height:200px;
-    margin-inline:-24px;
-    margin-bottom:-24px;
-    padding:24px; /* padding-200 */
-  }
-  
-  .teste2 {
-   
+    box-sizing: border-box;
     
+}
+  
+    
+  .accordion-header-hover {
+   
+    background-color: red;
     margin-block:auto;
+    box-sizing: border-box;
   }
   
   .title {
@@ -32,8 +31,8 @@
     max-height:56px;
   }
   
-  .teste2:hover {
-    
+  .accordion-header-hover:hover {
+    background-color: darken(#fefefd,05%);
   
     margin-block:auto;
   }
@@ -52,8 +51,35 @@
   
   .mat-expansion-panel-header,
   .mat-expansion-panel-header.mat-collapsed:hover {
-   background: #0070c040;
+   background: #fefefd;
   }
   
    
 ::ng-deep .mat-expansion-indicator::after { color:#1E2224;}
+
+
+
+ .mat-expansion-panel:hover {
+ 
+    outline: 2px solid #005faf !important;
+    box-shadow: none !important;
+
+  
+  
+}
+
+.mat-expansion-panel {
+ 
+  outline: 1px solid darken(#fefefd, 30%);
+  box-shadow: none !important;
+}
+.mat-expansion-panel:not([class*=mat-elevation-z]) {
+  box: shadow 0; }
+
+  .content {
+    background-color: #fefefd;
+    height:200px;
+    margin-inline:-24px;
+    margin-bottom:-24px;
+    padding:24px; /* padding-200 */
+  }

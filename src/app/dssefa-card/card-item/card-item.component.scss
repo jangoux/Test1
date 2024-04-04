@@ -1,3 +1,43 @@
-.card{
+/* variante inline */
+
+.inline {
+    display:flex;
+    flex:1;
+    justify-content: space-between;
+    margin-right: 80px;
     
 }
+
+/* tipografia e reordenação dos containers */
+
+.stacked > .item-description {
+    color:var(--text-color-description);
+    font:var(--typography-small-regular);
+    order:0;
+    }
+    
+.stacked > .item-header {
+        color:var(--text-color-title);
+        font:var(--typography-paragraph-strong);
+        order:1;
+        }
+
+/* variante stacked */
+
+.stacked{
+    display: flex;
+    flex-direction: column;
+}
+
+/* tipografia */
+
+.item-description{
+    font:var(--typography-label-regular);
+    color:var(--text-color-body);
+}
+
+
+.item-header{
+    font:var(--typography-label-strong);
+}
+

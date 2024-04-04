@@ -10,6 +10,7 @@ import { DssefaAccordionComponent } from './dssefa-accordion/dssefa-accordion.co
 import { DssefaAlertComponent } from './dssefa-alert/dssefa-alert.component';
 import { DssefaCardComponent } from './dssefa-card/dssefa-card.component';
 import { CardItemComponent } from './dssefa-card/card-item/card-item.component';
+import { DssefaInputComponent } from './dssefa-input/dssefa-input.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CardItemComponent } from './dssefa-card/card-item/card-item.component';
     DssefaAccordionComponent,
     DssefaAlertComponent,
     DssefaCardComponent,
-    CardItemComponent
+    CardItemComponent,
+    DssefaInputComponent
   ],
   imports: [
     BrowserModule,

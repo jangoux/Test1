@@ -6,6 +6,9 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./dssefa-card.component.scss']
 })
 export class DssefaCardComponent {
-  @Input() title: string ='';
-  constructor() { }
+  @Input() variant: 'stacked' | 'inline' = 'inline'; // Default variant
+  @Input() title: string = '';
+  @Input() items: string[] = [];
+
+  constructor() {}
 }

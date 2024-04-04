@@ -1,5 +1,11 @@
-<div class="card-item">
-    <div class="item-header">{{ title }}</div>
-    <div class="item-description">{{ description }}</div>
-  </div>
+<div class="card-item" [ngClass]="{
+  'inline': variant === 'inline',
+  'stacked': variant === 'stacked',
   
+}">
+    <div class="item-header">
+        <ng-content select="[title]"></ng-content>
+    </div>
+    <div class="item-description"><ng-content select="[description]"></ng-content></div>
+    
+  </div>
