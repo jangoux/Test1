@@ -21,7 +21,7 @@
 /*propriedades gerais de icones */
 
 * > .icon {
-    width:var(--size-300) !important;
+    max-width:var(--size-300) !important;
     height:var(--size-300) !important;
 }
 

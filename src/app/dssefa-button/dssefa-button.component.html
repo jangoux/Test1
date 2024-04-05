@@ -8,8 +8,14 @@
     'size-md': size === 'md',
     'size-sm': size === 'sm',
   }">
-    <mat-icon class="left-icon icon">{{ icon }}</mat-icon>
-    <span class="label"> {{ label }} </span>
-    <mat-icon class="right-icon icon">{{ icon }}</mat-icon>
+    <div class="left-icon icon">
+      <ng-content select="[left-icon]"></ng-content>
+    </div>
+    <span class="label">
+      <ng-content select="[label]"></ng-content>
+    </span>
+    <div class="right-icon icon">
+      <ng-content select="[right-icon]"></ng-content>
+    </div>
   </button>
   

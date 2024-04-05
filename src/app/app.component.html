@@ -1,9 +1,28 @@
 <body>
 
-<app-dssefa-button  variant="warning"  size="lg" icon="edit" label="kkkkkry"> test </app-dssefa-button>
+  <h1> Button</h1>
+  <p> Como usar:</p>
+  <pre>
+    <code>
+      &lt;app-dssefa-button variant="warning" size="lg" label="kkkkkry"&gt;
+        &lt;div left-icon&gt;&lt;!-- Left icon , either mat-icon or svg path--&gt;&lt;/div&gt;
+        &lt;div right-icon&gt;&lt;!-- Right icon , either mat-icon or svg path--&gt;&lt;/div&gt;
+      &lt;/app-dssefa-button&gt;
+    </code>
+  </pre>
+  
+
+
+<app-dssefa-button  variant="warning"  size="lg">
+  <div label> <!-- label--> label  </div> 
+  <div left-icon> <!-- Left icon , either mat-icon or svg path--> </div>
+  <div right-icon> <!-- Right icon , either mat-icon or svg path--> </div>
+</app-dssefa-button>
 
 
 
+<h1> Alert</h1>
+<p> Como usar:</p>
 <app-dssefa-alert icon="info" variant="warning">
   <!-- Title content -->
   <div title>Titulo</div>
@@ -16,9 +35,14 @@
 </app-dssefa-alert>
 
 
+
+<h1>Accordion</h1>
+<p> Como usar:</p>
 <app-dssefa-accordion></app-dssefa-accordion>
 
 
+<h1>Card</h1>
+<p> Como usar:</p>
 <app-dssefa-card  variant="inline" title="Card Title">
     <!-- Content provided by the user -->
     

@@ -11,6 +11,7 @@ import { DssefaAlertComponent } from './dssefa-alert/dssefa-alert.component';
 import { DssefaCardComponent } from './dssefa-card/dssefa-card.component';
 import { CardItemComponent } from './dssefa-card/card-item/card-item.component';
 import { DssefaInputComponent } from './dssefa-input/dssefa-input.component';
+import { DssefaTabsComponent } from './dssefa-tabs/dssefa-tabs.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { DssefaInputComponent } from './dssefa-input/dssefa-input.component';
     DssefaAlertComponent,
     DssefaCardComponent,
     CardItemComponent,
-    DssefaInputComponent
+    DssefaInputComponent,
+    DssefaTabsComponent
   ],
   imports: [
     BrowserModule,
