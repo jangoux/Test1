@@ -1,0 +1,220 @@
+{
+  "typography": {
+    "paragraph": {
+      "strong": {
+        "type": "typography",
+        "value": {
+          "fontSize": "{font.size.300}",
+          "textCase": "{font.textcase.none}",
+          "fontFamily": "{font.family}",
+          "fontWeight": "{font.weight.bold}",
+          "lineHeight": "{font.lineheight.750}",
+          "letterSpacing": "{font.letterspacing.none}",
+          "textDecoration": "{font.textdecoration.none}",
+          "paragraphSpacing": "{font.paragraphspacing.spaced}"
+        },
+        "description": "Estilo tipográfico de utilização em trechos de texto corrido, quando o mesmo requer destaque em relação ao resto do texto, devendo ser utilizado de forma pontual exclusivamente nestes casos."
+      },
+      "regular": {
+        "type": "typography",
+        "value": {
+          "fontSize": "{font.size.300}",
+          "textCase": "{font.textcase.none}",
+          "fontFamily": "{font.family}",
+          "fontWeight": "{font.weight.regular}",
+          "lineHeight": "{font.lineheight.750}",
+          "letterSpacing": "{font.letterspacing.none}",
+          "textDecoration": "{font.textdecoration.none}",
+          "paragraphSpacing": "{font.paragraphspacing.spaced}"
+        },
+        "description": "Utilização em textos corridos como artigos, leis, notícias e afins."
+      }
+    },
+    "small": {
+      "medium": {
+        "type": "typography",
+        "value": {
+          "fontSize": "{font.size.150}",
+          "textCase": "{font.textcase.none}",
+          "fontFamily": "{font.family}",
+          "fontWeight": "{font.weight.medium}",
+          "lineHeight": "{font.lineheight.700}",
+          "letterSpacing": "{font.letterspacing.none}",
+          "textDecoration": "{font.textdecoration.none}",
+          "paragraphSpacing": "{font.paragraphspacing.spaced}"
+        },
+        "description": "Estilo tipográfico de uso geral que tem como finalidade única de proporcionar hierarquia visual em situações que paragraph / label não cumprem esse papel. Seu uso deve ser evitado pois pode causar problemas de acessibilidade."
+      },
+      "strong": {
+        "type": "typography",
+        "value": {
+          "fontSize": "{font.size.150}",
+          "textCase": "{font.textcase.none}",
+          "fontFamily": "{font.family}",
+          "fontWeight": "{font.weight.bold}",
+          "lineHeight": "{font.lineheight.700}",
+          "letterSpacing": "{font.letterspacing.none}",
+          "textDecoration": "{font.textdecoration.none}",
+          "paragraphSpacing": "{font.paragraphspacing.spaced}"
+        },
+        "description": "Estilo tipográfico de uso geral que tem como finalidade única de proporcionar hierarquia visual em situações que paragraph / label não cumprem esse papel. Seu uso deve ser evitado pois pode causar problemas de acessibilidade."
+      },
+      "regular": {
+        "type": "typography",
+        "value": {
+          "fontSize": "{font.size.150}",
+          "textCase": "{font.textcase.none}",
+          "fontFamily": "{font.family}",
+          "fontWeight": "{font.weight.regular}",
+          "lineHeight": "{font.lineheight.700}",
+          "letterSpacing": "{font.letterspacing.none}",
+          "textDecoration": "{font.textdecoration.none}",
+          "paragraphSpacing": "{font.paragraphspacing.spaced}"
+        },
+        "description": "Estilo tipográfico de uso geral que tem como finalidade única de proporcionar hierarquia visual em situações que paragraph / label não cumprem esse papel. Seu uso deve ser evitado pois pode causar problemas de acessibilidade."
+      },
+      "highlight": {
+        "type": "typography",
+        "value": {
+          "fontSize": "{font.size.150}",
+          "textCase": "{font.textcase.none}",
+          "fontFamily": "{font.family}",
+          "fontWeight": "{font.weight.regular}",
+          "lineHeight": "{font.lineheight.700}",
+          "letterSpacing": "{font.letterspacing.none}",
+          "textDecoration": "{font.textdecoration.underline}",
+          "paragraphSpacing": "{font.paragraphspacing.spaced}"
+        },
+        "description": "Estilo tipográfico de uso geral que tem como finalidade única de proporcionar hierarquia visual em situações que paragraph / label não cumprem esse papel. Seu uso deve ser evitado pois pode causar problemas de acessibilidade."
+      }
+    },
+    "label": {
+      "medium": {
+        "type": "typography",
+        "value": {
+          "fontSize": "{font.size.300}",
+          "textCase": "{font.textcase.none}",
+          "fontFamily": "{font.family}",
+          "fontWeight": "{font.weight.medium}",
+          "lineHeight": "{font.lineheight.600}",
+          "letterSpacing": "{font.letterspacing.none}",
+          "textDecoration": "{font.textdecoration.none}",
+          "paragraphSpacing": "{font.paragraphspacing.none}"
+        },
+        "description": "Estilo tipográfico que tem como finalidade a utilização em rótulos de componentes acionáveis em seu estado default."
+      },
+      "strong": {
+        "type": "typography",
+        "value": {
+          "fontSize": "{font.size.300}",
+          "textCase": "{font.textcase.none}",
+          "fontFamily": "{font.family}",
+          "fontWeight": "{font.weight.semibold}",
+          "lineHeight": "{font.lineheight.600}",
+          "letterSpacing": "{font.letterspacing.none}",
+          "textDecoration": "{font.textdecoration.none}",
+          "paragraphSpacing": "{font.paragraphspacing.none}"
+        },
+        "description": "Estilo com a finalidade de utilização em rótulos de componentes não acionáveis, como títulos em tabelas."
+      },
+      "regular": {
+        "type": "typography",
+        "value": {
+          "fontSize": "{font.size.300}",
+          "textCase": "{font.textcase.none}",
+          "fontFamily": "{font.family}",
+          "fontWeight": "{font.weight.regular}",
+          "lineHeight": "{font.lineheight.600}",
+          "letterSpacing": "{font.letterspacing.none}",
+          "textDecoration": "{font.textdecoration.none}",
+          "paragraphSpacing": "{font.paragraphspacing.none}"
+        },
+        "description": "Estilo tipográfico para ser usado em componentes em situações de elementos não interativos, nem em títulos de componentes."
+      },
+      "highlight": {
+        "type": "typography",
+        "value": {
+          "fontSize": "{font.size.300}",
+          "textCase": "{font.textcase.none}",
+          "fontFamily": "{font.family}",
+          "fontWeight": "{font.weight.medium}",
+          "lineHeight": "{font.lineheight.600}",
+          "letterSpacing": "{font.letterspacing.none}",
+          "textDecoration": "{font.textdecoration.underline}",
+          "paragraphSpacing": "{font.paragraphspacing.none}"
+        },
+        "description": "Estilo tipográficos para uso em links de texto em estado hover."
+      }
+    },
+    "caption": {
+      "type": "typography",
+      "value": {
+        "fontSize": "{font.size.100}",
+        "textCase": "{font.textcase.none}",
+        "fontFamily": "{font.family}",
+        "fontWeight": "{font.weight.regular}",
+        "lineHeight": "{font.lineheight.400}",
+        "letterSpacing": "{font.letterspacing.none}",
+        "textDecoration": "{font.textdecoration.none}",
+        "paragraphSpacing": "{font.paragraphspacing.none}"
+      },
+      "description": "Estilo tipográfico para utilização em textos de apoio em componentes. Sua utilização deve ser evitada em outros cenários pois o tamanho reduzido pode levar a problemas de acessibilidade."
+    },
+    "h1": {
+      "type": "typography",
+      "value": {
+        "fontSize": "{font.size.900}",
+        "textCase": "{font.textcase.none}",
+        "fontFamily": "{font.family}",
+        "fontWeight": "{font.weight.bold}",
+        "lineHeight": "{font.lineheight.100}",
+        "letterSpacing": "{font.letterspacing.none}",
+        "textDecoration": "{font.textdecoration.none}",
+        "paragraphSpacing": "{font.paragraphspacing.spaced}"
+      },
+      "description": "Estilo tipográfico para uso no título de páginas e serviços"
+    },
+    "h2": {
+      "type": "typography",
+      "value": {
+        "fontSize": "{font.size.700}",
+        "textCase": "{font.textcase.none}",
+        "fontFamily": "{font.family}",
+        "fontWeight": "{font.weight.semibold}",
+        "lineHeight": "{font.lineheight.200}",
+        "letterSpacing": "{font.letterspacing.none}",
+        "textDecoration": "{font.textdecoration.none}",
+        "paragraphSpacing": "{font.paragraphspacing.none}"
+      },
+      "description": "Estilo para uso em subtítulo de serviços."
+    },
+    "h3": {
+      "type": "typography",
+      "value": {
+        "fontSize": "{font.size.600}",
+        "textCase": "{font.textcase.none}",
+        "fontFamily": "{font.family}",
+        "fontWeight": "{font.weight.semibold}",
+        "lineHeight": "{font.lineheight.200}",
+        "letterSpacing": "{font.letterspacing.none}",
+        "textDecoration": "{font.textdecoration.none}",
+        "paragraphSpacing": "{font.paragraphspacing.none}"
+      },
+      "description": "Estilo tipográfico para utilização em cabeçalhos de sessões, como cabeçalhos de tabela (ex. componente Header)"
+    },
+    "h4": {
+      "type": "typography",
+      "value": {
+        "fontSize": "{font.size.400}",
+        "textCase": "{font.textcase.none}",
+        "fontFamily": "{font.family}",
+        "fontWeight": "{font.weight.semibold}",
+        "lineHeight": "{font.lineheight.300}",
+        "letterSpacing": "{font.letterspacing.none}",
+        "textDecoration": "{font.textdecoration.none}",
+        "paragraphSpacing": "{font.paragraphspacing.none}"
+      },
+      "description": "Estilo tipográfico utilitário para uso em situações que é necessário criar hierarquia visual e os demais headings já foram utilizados."
+    }
+  }
+}

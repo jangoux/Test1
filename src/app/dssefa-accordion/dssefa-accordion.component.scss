@@ -1,3 +1,7 @@
+
+@import 'src/typography.scss';
+
+
 .accordion {
   box-sizing: border-box;
 }
@@ -18,12 +22,12 @@
   }
   
   .title {
-    font: bold 18px/135% "Roboto", sans-serif; /* typography-label-strong*/
+    @extend .label-strong;
     color:#1E2224;
   }
   
   .description {
-    font: normal 14px/135% "Roboto", sans-serif; /* typography-small-regular*/
+    @extend .small-regular;
     color:#969696;
   }
   

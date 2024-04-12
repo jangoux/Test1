@@ -1,0 +1,54 @@
+{
+  "icon": {
+    "color": {
+      "action": {
+        "type": "color",
+        "value": "{color.fg.action}"
+      },
+      "interaction": {
+        "type": "color",
+        "value": "{color.fg.interaction}"
+      },
+      "default": {
+        "type": "color",
+        "value": "{color.fg.on-light.primary}",
+        "description": "Cor secundária para uso no foreground. Deve ser utilizada em texto corrido e outros elementos que necessitam destaque porém não possuem um nível hierárquico prioritário."
+      },
+      "on-site": {
+        "type": "color",
+        "value": "{color.fg.on-site}"
+      },
+      "success": {
+        "type": "color",
+        "value": "{color.fg.success}"
+      },
+      "warning": {
+        "type": "color",
+        "value": "{color.fg.warning}"
+      },
+      "disabled": {
+        "type": "color",
+        "value": "{color.fg.disabled}",
+        "description": "Utilização em ícones de componentes desabilitados. Para utilização sem o fundo color.background.disabled, ou seja, em background.color.container.primary, utilizar com opacidade 25%."
+      },
+      "on-color": {
+        "type": "color",
+        "value": "{color.fg.on-dark.primary}"
+      },
+      "on-dark-secondary": {
+        "type": "color",
+        "value": "{color.fg.on-dark.secondary}"
+      }
+    },
+    "size": {
+      "sm": {
+        "value": "{size.300}",
+        "type": "sizing"
+      },
+      "md": {
+        "value": "{size.400}",
+        "type": "sizing"
+      }
+    }
+  }
+}

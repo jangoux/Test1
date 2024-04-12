@@ -1,6 +1,10 @@
+<head>
+  <link rel="stylesheet" href="/src/typography.scss">
+  </head>
+
 <body>
 
-  <h1> Button</h1>
+  <h1 class="h1"> Button</h1>
   <p> Como usar:</p>
   <pre>
     <code>
@@ -10,15 +14,114 @@
       &lt;/app-dssefa-button&gt;
     </code>
   </pre>
-  
-
-
-<app-dssefa-button  variant="warning"  size="lg">
-  <div label> <!-- label--> label  </div> 
-  <div left-icon> <!-- Left icon , either mat-icon or svg path--> </div>
-  <div right-icon> <!-- Right icon , either mat-icon or svg path--> </div>
-</app-dssefa-button>
-
+  <div class="button-container">
+    <app-dssefa-button variant="primary" size="lg">
+        <div label>test</div>
+        <div left-icon>
+            <mat-icon>edit</mat-icon>
+        </div>
+        <div right-icon>
+            <mat-icon>edit</mat-icon>
+        </div>
+    </app-dssefa-button>
+    <app-dssefa-button variant="secondary" size="lg">
+        <div label>label</div>
+        <div left-icon></div>
+        <div right-icon></div>
+    </app-dssefa-button>
+    <app-dssefa-button variant="tertiary" size="lg">
+        <div label>label</div>
+        <div left-icon></div>
+        <div right-icon></div>
+    </app-dssefa-button>
+    <app-dssefa-button variant="warning" size="lg">
+        <div label>label</div>
+        <div left-icon></div>
+        <div right-icon></div>
+    </app-dssefa-button>
+    <app-dssefa-button variant="warning-secondary" size="lg">
+        <div label>label</div>
+        <div left-icon></div>
+        <div right-icon></div>
+    </app-dssefa-button>
+    <app-dssefa-button variant="disabled" size="lg">
+        <div label>label</div>
+        <div left-icon></div>
+        <div right-icon></div>
+    </app-dssefa-button>
+    </div>
+    <div class="button-container">
+    <app-dssefa-button variant="primary" size="md">
+        <div label>test</div>
+        <div left-icon>
+            <mat-icon>edit</mat-icon>
+        </div>
+        <div right-icon>
+            <mat-icon>edit</mat-icon>
+        </div>
+    </app-dssefa-button>
+    <app-dssefa-button variant="secondary" size="md">
+        <div label>label</div>
+        <div left-icon></div>
+        <div right-icon></div>
+    </app-dssefa-button>
+    <app-dssefa-button variant="tertiary" size="md">
+        <div label>label</div>
+        <div left-icon></div>
+        <div right-icon></div>
+    </app-dssefa-button>
+    <app-dssefa-button variant="warning" size="md">
+        <div label>label</div>
+        <div left-icon></div>
+        <div right-icon></div>
+    </app-dssefa-button>
+    <app-dssefa-button variant="warning-secondary" size="md">
+        <div label>label</div>
+        <div left-icon></div>
+        <div right-icon></div>
+    </app-dssefa-button>
+    <app-dssefa-button variant="disabled" size="md">
+        <div label>label</div>
+        <div left-icon></div>
+        <div right-icon></div>
+    </app-dssefa-button>
+    </div>
+  <div class="button-container">
+    <app-dssefa-button variant="primary" size="sm">
+        <div label>test</div>
+        <div left-icon>
+            <mat-icon>edit</mat-icon>
+        </div>
+        <div right-icon>
+            <mat-icon>edit</mat-icon>
+        </div>
+    </app-dssefa-button>
+    <app-dssefa-button variant="secondary" size="sm">
+        <div label>label</div>
+        <div left-icon></div>
+        <div right-icon></div>
+    </app-dssefa-button>
+    <app-dssefa-button variant="tertiary" size="sm">
+        <div label>label</div>
+        <div left-icon></div>
+        <div right-icon></div>
+    </app-dssefa-button>
+    <app-dssefa-button variant="warning" size="sm">
+        <div label>label</div>
+        <div left-icon></div>
+        <div right-icon></div>
+    </app-dssefa-button>
+    <app-dssefa-button variant="warning-secondary" size="sm">
+        <div label>label</div>
+        <div left-icon></div>
+        <div right-icon></div>
+    </app-dssefa-button>
+    <app-dssefa-button variant="disabled" size="sm">
+        <div label>label</div>
+        <div left-icon></div>
+        <div right-icon></div>
+    </app-dssefa-button>
+</div>
 
 
 <h1> Alert</h1>
@@ -30,7 +133,7 @@
   <div description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nisi hic delectus id </div>
   <!-- CTA content -->
   <div cta-content>
-    <app-dssefa-button> Teste</app-dssefa-button>
+    
   </div>
 </app-dssefa-alert>
 

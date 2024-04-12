@@ -1,0 +1,25 @@
+{
+  "container": {
+    "color": {
+      "primary": {
+        "type": "color",
+        "value": "{color.bg.primary}",
+        "description": "cor de fundo principal"
+      },
+      "secondary": {
+        "type": "color",
+        "value": "{color.bg.secondary}",
+        "description": "Cor de fundo para ser usada sobre a primária.\n\nPode ser usado em cards e containers semelhantes.\n"
+      },
+      "terciary": {
+        "type": "color",
+        "value": "{color.bg.terciary}",
+        "description": "Cor de fundo para ser usada sobre a primária.\n\nSugere-se que seja usado em headers de forms ou filtros."
+      },
+      "inverse": {
+        "value": "{color.bg.inverse}",
+        "type": "color"
+      }
+    }
+  }
+}

@@ -1,13 +1,15 @@
-<button class="button" mat-icon-button [ngClass]="{
+<button class="button" mat-flat-button [disableRipple]="true"  [disabled]="variant === 'disabled'" [ngClass]="{
     'primary': variant === 'primary',
     'secondary': variant === 'secondary',
     'warning': variant === 'warning',
+    'warning-secondary': variant === 'warning-secondary',
     'disabled': variant ==='disabled',
     'tertiary': variant ==='tertiary',
     'size-lg': size === 'lg',
     'size-md': size === 'md',
     'size-sm': size === 'sm',
   }">
+  <span class="content">
     <div class="left-icon icon">
       <ng-content select="[left-icon]"></ng-content>
     </div>
@@ -17,5 +19,6 @@
     <div class="right-icon icon">
       <ng-content select="[right-icon]"></ng-content>
     </div>
+  </span>
   </button>
   

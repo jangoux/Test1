@@ -1,3 +1,7 @@
+
+@import 'src/typography.scss';
+
+
 .card {
     background-color: var(--container-color-secondary);
     padding: var(--padding-500);
@@ -6,7 +10,7 @@
 
 .card-header {
     color:var(--text-color-title);
-    font: var(--typography-h4);
+    @extend .h4; /* tipografia */
     margin-bottom:var(--padding-300);
 }
 

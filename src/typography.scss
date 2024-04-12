@@ -1,0 +1,176 @@
+/**
+ * Do not edit directly
+ * Generated on Mon, 01 Apr 2024 19:23:26 GMT
+ */
+
+ 
+ .h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: clamp(var(--font-size-700), 4vw,var(--font-size-900));
+    font-weight:var(--typography-h1-font-weight);
+    line-height:var(--typography-h1-line-height);
+    letter-spacing: var(--typography-h1-letter-spacing);
+    text-decoration: var(--typography-h1-text-decoration);
+    
+  }
+  
+  .h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: clamp(var(--font-size-700), 4vw,var(--typography-h2-font-size));
+    font-weight:var(--typography-h2-font-weight);
+    line-height:var(--typography-h2-line-height);
+    letter-spacing: var(--typography-h2-letter-spacing);
+    text-decoration: var(--typography-h2-text-decoration);
+    
+    
+  }
+  
+  .h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: clamp(var(--font-size-500), 4vw,var(--typography-h3-font-size));
+    font-weight:var(--typography-h3-font-weight);
+    line-height:var(--typography-h3-line-height);
+    letter-spacing: var(--typography-h3-letter-spacing);
+    text-decoration: var(--typography-h3-text-decoration);
+    
+  }
+  
+  .h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: clamp(var(--font-size-300), 1.5vw,var(--typography-h4-font-size));
+    font-weight:var(--typography-h4-font-weight);
+    line-height:var(--typography-h4-line-height);
+    letter-spacing: var(--typography-h4-letter-spacing);
+    text-decoration: var(--typography-h4-text-decoration);
+    
+    
+  }
+  
+  .p {
+    font-family: 'Roboto', sans-serif;
+    font-size: clamp(var(--font-size-200), 1.5vw,var(--typography-paragraph-regular-font-size));
+    font-weight:var(--typography-paragraph-regular-font-weight);
+    line-height:var(--typography-paragraph-regular-line-height);
+    letter-spacing: var(--typography-paragraph-regular-letter-spacing);
+    text-decoration: var(--typography-paragraph-regular-text-decoration);
+    margin-bottom: var(--typography-paragraph-regular-paragraph-spacing);
+    
+    
+    
+  }
+  
+  .paragraph-strong {
+   @extend .p ;
+    font-weight:var(--typography-paragraph-strong-font-weight);
+    
+    
+  }
+  
+  
+  .small-regular {
+    font-family: 'Roboto', sans-serif;
+    font-size: var(--typography-small-regular-font-size);
+    font-weight:var(--typography-small-regular-font-weight);
+    line-height:var(--typography-small-regular-line-height);
+    letter-spacing: var(--typography-small-regular-letter-spacing);
+    text-decoration: var(--typography-small-regular-text-decoration);
+    
+    
+  }
+  
+  .small-strong {
+   @extend .small-regular;
+    font-weight:var(--typography-small-strong-font-weight);
+    text-decoration: var(--typography-small-strong-text-decoration);
+    
+    
+  }
+  
+  
+  .small-medium {
+    @extend .small-regular;
+    font-weight:var(--typography-small-strong-font-weight);
+    text-decoration: var(--typography-small-strong-text-decoration);
+    
+    
+  }
+  
+  
+  .small-highlight {
+    @extend .small-regular;
+    font-weight:var(--typography-small-highlight-font-weight);
+    text-decoration: var(--typography-small-highlight-text-decoration);
+  }
+  
+  
+  
+  
+  .label-regular {
+    font-family: 'Roboto', sans-serif;
+    font-size: clamp(var(--font-size-200), 1.5vw,var(--typography-label-regular-font-size));
+    font-weight:var(--typography-label-regular-font-weight);
+    line-height:var(--typography-label-regular-line-height);
+    letter-spacing: var(--typography-label-regular-letter-spacing);
+    text-decoration: var(--typography-label-regular-text-decoration);
+    
+  }
+  
+  
+  
+  .label-medium {
+    @extend .label-regular;
+    font-weight:var(--typography-label-medium-font-weight);
+    text-decoration: var(--typography-label--text-decoration);
+  }
+  
+  
+  .label-strong {
+    @extend .label-regular;
+    font-weight:var(--typography-label-strong-font-weight);
+    text-decoration: var(--typography-label-strong-text-decoration);
+    
+  }
+  
+  
+  .label-highlight {
+    @extend .label-regular;
+    font-weight:var(--typography-label-highlight-font-weight);
+    text-decoration: var(--typography-label-highlight-text-decoration);
+    
+  }
+  
+  .caption {
+    font-family: 'Roboto', sans-serif;
+    font-size: var(--typography-caption-font-size);
+    font-weight:var(--typography-caption-font-weight);
+    line-height:var(--typography-caption-line-height);
+    letter-spacing: var(--typography-caption-letter-spacing);
+    text-decoration: var(--typography-caption-text-decoration);
+  }
+  
+
+/*
+comentado caso não vá se usar a tipografia fluída
+
+
+@media screen and (max-width: 1024px) {
+    .h1 {
+        font-size: var(--font-size-800) ; 
+    }
+    .h2 {
+        font-size: var(--font-size-700) ; 
+    }
+    .h3 {
+        font-size: var(--font-size-500) ; 
+    }
+    .h4 {
+        font-size: var(--font-size-300) ; 
+    }
+    .label-highlight, .label-medium, .label-regular, .label-strong, .p ,.paragraph-strong {
+        font-size: var(--font-size-200) ;
+    }
+    .caption {
+        font-size: var(--font-size-50);
+    }
+  }
+  */

@@ -1,3 +1,5 @@
+@import 'src/typography.scss';
+
 /* variante inline */
 
 .inline {
@@ -12,13 +14,13 @@
 
 .stacked > .item-description {
     color:var(--text-color-description);
-    font:var(--typography-small-regular);
+    @extend .small-regular;
     order:0;
     }
     
 .stacked > .item-header {
         color:var(--text-color-title);
-        font:var(--typography-paragraph-strong);
+        @extend .label-strong;
         order:1;
         }
 
@@ -32,12 +34,12 @@
 /* tipografia */
 
 .item-description{
-    font:var(--typography-label-regular);
+   @extend .label-regular;
     color:var(--text-color-body);
 }
 
 
 .item-header{
-    font:var(--typography-label-strong);
+   @extend .label-strong;
 }
 

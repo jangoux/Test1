@@ -1,0 +1,19 @@
+{
+  "tokenSetOrder": [
+    "GLOBAL/typography",
+    "GLOBAL/layout",
+    "GLOBAL/COLOR/default",
+    "GLOBAL/COLOR/dark",
+    "GLOBAL/COLOR/contrast",
+    "SEMANTIC/shadow",
+    "SEMANTIC/color",
+    "SEMANTIC/TYPOGRAPHY/desktop",
+    "SEMANTIC/TYPOGRAPHY/mobile",
+    "SEMANTIC/layout",
+    "COMPONENT/text",
+    "COMPONENT/icon",
+    "COMPONENT/container",
+    "COMPONENT/action",
+    "form"
+  ]
+}

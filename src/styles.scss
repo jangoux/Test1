@@ -1,294 +1,409 @@
 /**
  * Do not edit directly
- * Generated on Mon, 01 Apr 2024 19:23:26 GMT
+ * Generated on Fri, 12 Apr 2024 12:11:58 GMT
  */
 
  :root {
-    --border-width-lg: 4;
-    --border-width-md: 2;
-    --border-width-sm: 1;
-    --border-width-none: 0;
-    --border-none: 0;
-    --border-radius-pill: 10px * 2;
-    --border-radius-round: 100px;
-    --border-radius-sm: 4px;
-    --border-radius-none: 0px;
-    --border-radius-default: 4px;
-    --border-default: 1;
-    --border-interaction: 2;
-    --dimension-0: 0px;
-    --dimension-1: 1px;
-    --dimension-2: 2px;
-    --dimension-4: 4px;
-    --dimension-5: 5px;
-    --dimension-8: 8px;
-    --dimension-10: 10px;
-    --dimension-12: 12px;
-    --dimension-16: 16px;
-    --dimension-20: 20px;
-    --dimension-24: 24px;
-    --dimension-32: 32px;
-    --dimension-40: 40px;
-    --dimension-48: 48px;
-    --dimension-56: 56px;
-    --dimension-64: 64px;
-    --dimension-72: 72px;
-    --dimension-80: 80px;
-    --dimension-88: 88px;
-    --dimension-100: 100px;
-    --dimension-auto: AUTO;
-    --breakpoint-lg: 1920;
-    --breakpoint-md: 840;
-    --breakpoint-sm: 600;
-    --color-info: hsla(207,100%,34%,1);
-    --color-disabled: #eeeeee;
-    --color-primary: hsla(207,100%,34%,1);
-    --color-success: #24a148;
-    --color-warning: #da1e28;
-    --color-attention: #fddc69;
-    --color-neutral-100: #1e2224;
-    --color-neutral-200: #4f4f4f;
-    --color-neutral-300: #777777;
-    --color-neutral-400: #737373;
-    --color-neutral-500: #969696;
-    --color-neutral-600: #bdbdbd;
-    --color-neutral-700: #e0e0e0;
-    --color-neutral-800: #eeeeee;
-    --color-neutral-900: #f7f7f7;
-    --color-neutral-950: #fefefd;
-    --color-base-hue: 207;
-    --color-base-saturation: 100%;
-    --color-base-lightness: 34%;
-    --color-modifier-10: 0.1;
-    --color-modifier-15: 0.15;
-    --color-modifier-20: 0.20;
-    --color-modifier-25: 0.25;
-    --color-modifier-30: 0.30;
-    --color-modifier-35: 0.35;
-    --color-modifier-40: 0.40;
-    --color-modifier-45: 0.45;
-    --color-modifier-50: 0.50;
-    --color-modifier-55: 0.55;
-    --color-modifier-60: 0.5;
-    --color-modifier-85: 0.85;
-    --color-modifier-90: 0.9;
-    --color-modifier-92: 0.92;
-    --color-modifier-95: 0.95;
-    --color-modifier-hover: 0.95;
-    --color-modifier-active: 0.9;
-    --color-modifier-selection: 0.92;
-    --color-modifier-disabled: 0.1;
-    --color-modifier-inactive: 0.5;
-    --color-border-action: hsla(207,100%,34%,1);
-    --color-border-interaction: hsla(207,100%,34%,1);
-    --color-border-on-site: hsla(207,100%,34%,1);
-    --color-border-success: #24a148;
-    --color-border-warning: #da1e28;
-    --color-border-disabled: #eeeeee;
-    --color-border-container: #e0e0e0;
-    --color-border-strong: #777777;
-    --color-bg-brand-alt: hsla(207,100%,34%,1);
-    --color-bg-brand-default: hsla(207,100%,34%,1);
-    --color-bg-warning-tint: #da1e28;
-    --color-bg-warning-base: #da1e28;
-    --color-bg-primary: #fefefd;
-    --color-bg-secondary: #f7f7f7;
-    --color-bg-terciary: #eeeeee;
-    --color-bg-icon: hsla(207,100%,34%,1);
-    --color-bg-info: hsla(207,100%,34%,1);
-    --color-bg-inverse: #777777;
-    --color-bg-hover: hsla(207,100%,34%,1);
-    --color-bg-active: #1e2224;
-    --color-bg-selection: hsla(207,100%,34%,1);
-    --color-bg-on-site: hsla(207,100%,34%,1);
-    --color-bg-disabled: #eeeeee;
-    --color-bg-action: hsla(207,100%,34%,1);
-    --color-bg-success: #24a148;
-    --color-bg-attention: #fddc69;
-    --color-bg-line-default: #e0e0e0;
-    --color-bg-activee: hsla(207,100%,34%,1);
-    --color-bg-inactive: #1e2224;
-    --color-fg-on-site: hsla(207,100%,34%,1);
-    --color-fg-warning: #da1e28;
-    --color-fg-disabled: #eeeeee;
-    --color-fg-success: #24a148;
-    --color-fg-action: hsla(207,100%,34%,1);
-    --color-fg-interaction: hsla(207,100%,34%,1);
-    --color-fg-on-dark-primary: #fefefd;
-    --color-fg-on-dark-secondary: #e0e0e0;
-    --color-fg-on-light-primary: #1e2224;
-    --color-fg-on-light-secondary: #777777;
-    --color-fg-on-light-terciary: #969696;
-    --elevation-0: 0 0 0 0 #00000033;
-    --elevation-1: 0 2px 1px 0 #00000033;
-    --elevation-2: 0 3px 1px 0 #00000033;
-    --elevation-3: 0 3px 3px 0 #00000033;
-    --elevation-4: 0 2px 4px 0 #00000033;
-    --elevation-5: 0 3px 5px 0 #00000033;
-    --elevation-6: 0 3px 5px 0 #00000033;
-    --elevation-7: 0 4px 5px 0 #00000033;
-    --elevation-8: 0 5px 5px 0 #00000033;
-    --elevation-9: 0 5px 6px 0 #00000033;
-    --elevation-10: 0 6px 6px 0 #00000033;
-    --elevation-11: 0 6px 7px 0 #00000033;
-    --elevation-12: 0 7px 8px 0 #00000033;
-    --elevation-13: 0 7px 8px 0 #00000033;
-    --elevation-14: 0 7px 9px 0 #00000033;
-    --elevation-15: 0 8px 9px 0 #00000033;
-    --elevation-16: 0 8px 10px 0 #00000033;
-    --elevation-17: 0 8px 11px 0 #00000033;
-    --elevation-18: 0 9px 11px 0 #00000033;
-    --elevation-19: 0 9px 12px 0 #00000033;
-    --elevation-20: 0 10px 13px 0 #00000033;
-    --elevation-21: 0 10px 13px 0 #00000033;
-    --elevation-22: 0 10px 14px 0 #00000033;
-    --elevation-23: 0 11px 14px 0 #00000033;
-    --elevation-24: 0 11px 15px 0 #00000033;
-    --elevation-active: 0 5px 14px 0 #0000001f, 0 9px 10px 0 #00000024, 0 5px 5px 0 #00000033;
-    --elevation-default: 0 1px 5px 0 #0000001f, 0 2px 2px 0 #00000024, 0 1px 1px 0 #00000033;
-    --elevation-shadows: 0 6px 24px 0 #0000001a;
-    --size-50: 4px;
-    --size-100: 12px;
-    --size-200: 16px;
-    --size-300: 24px;
-    --size-400: 32px;
-    --size-500: 40px;
-    --size-600: 48px;
-    --size-700: 56px;
-    --size-800: 72px;
-    --size-line: 1px;
-    --size-input-md: 56px;
-    --size-input-sm: 40px;
-    --size-button-lg: 56px;
-    --size-button-md: 48px;
-    --size-button-sm: 40px;
-    --size-button-xlg: 72px;
-    --size-button-xsm: 32px + 4px;
-    --padding-100: 4px;
-    --padding-200: 8px;
-    --padding-250: 12px;
-    --padding-300: 16px;
-    --padding-400: 24px;
-    --padding-500: 32px;
-    --padding-600: 40px;
-    --padding-700: 48px;
-    --padding-800: 64px;
-    --padding-900: 88px;
-    --padding-none: 0px;
-    --padding-dialog: 40px;
-    --padding-accordion: 32px;
-    --gap-50: 4px;
-    --gap-100: 8px;
-    --gap-150: 12px;
-    --gap-200: 16px;
-    --gap-250: 20px;
-    --gap-300: 24px;
-    --gap-400: 32px;
-    --gap-500: 40px;
-    --gap-600: 48px;
-    --gap-700: 56px;
-    --gap-800: 64px;
-    --gap-900: 88px;
-    --gap-auto: AUTO;
-    --gap-none: 0px;
-    --gap-card-lg: 24px;
-    --gap-card-md: 16px;
-    --gap-card-sm: 8px;
-    --gap-form-lg: 40px;
-    --gap-form-md: 32px;
-    --gap-form-sm: 24px;
-    --gap-form-default: 32px;
-    --gap-footer-md: 10px;
-    --gap-footer-sm: 5px;
-    --text-color-title: #1e2224;
-    --text-color-on-site: hsla(207,100%,34%,1);
-    --text-color-interaction: hsla(207,100%,34%,1);
-    --text-color-action: hsla(207,100%,34%,1);
-    --text-color-body: #777777;
-    --text-color-description: #969696;
-    --text-color-disabled: #eeeeee;
-    --text-color-warning: #da1e28;
-    --text-color-success: #24a148;
-    --text-color-on-color-title: #fefefd;
-    --text-color-on-color-body: #e0e0e0;
-    --icon-color-action: hsla(207,100%,34%,1);
-    --icon-color-interaction: hsla(207,100%,34%,1);
-    --icon-color-default: #1e2224;
-    --icon-color-on-site: hsla(207,100%,34%,1);
-    --icon-color-success: #24a148;
-    --icon-color-warning: #da1e28;
-    --icon-color-disabled: #eeeeee;
-    --icon-color-on-color: #fefefd;
-    --icon-color-on-dark-secondary: #e0e0e0;
-    --container-color-primary: #fefefd;
-    --container-color-secondary: #f7f7f7;
-    --container-color-terciary: #eeeeee;
-    --container-color-inverse: #777777;
-    --button-primary-color-default: hsla(207,100%,34%,1);
-    --button-primary-color-hover: hsla(207,100%,34%,1);
-    --button-primary-color-active: hsla(207,100%,34%,1);
-    --button-warning-color-default: #da1e28;
-    --button-warning-color-hover: #da1e28;
-    --button-warning-color-active: #da1e28;
-    --form-gap-vertical: 32px;
-    --form-gap-horizontal: 16px;
-    --form-padding-top: 32px;
-    --form-padding-bottom: 40px;
-    --form-padding-horizontal: 32px;
-    --form-header-padding-horizontal: 16px;
-    --form-header-padding-vertical: 8px;
-    --title: 600 20px/120% Roboto;
-    --font-size-50: 12px;
-    --font-size-100: 13px;
-    --font-size-150: 14px;
-    --font-size-200: 16px;
-    --font-size-300: 18px;
-    --font-size-400: 20px;
-    --font-size-500: 22px;
-    --font-size-600: 24px;
-    --font-size-700: 28px;
-    --font-size-800: 32px;
-    --font-size-900: 44px;
-    --font-family: Roboto;
-    --font-weight-bold: Bold;
-    --font-weight-medium: Medium;
-    --font-weight-regular: Regular;
-    --font-weight-semibold: SemiBold;
-    --font-textcase-none: none;
-    --font-textcase-uppercase: uppercase;
-    --font-textcase-capitalize: capitalize;
-    --font-lineheight-100: 110%;
-    --font-lineheight-200: 115%;
-    --font-lineheight-300: 120%;
-    --font-lineheight-400: 125%;
-    --font-lineheight-500: 130%;
-    --font-lineheight-600: 135%;
-    --font-lineheight-700: 140%;
-    --font-lineheight-750: 145%;
-    --font-lineheight-800: 150%;
-    --font-lineheight-900: 175%;
-    --font-lineheight-auto: auto;
-    --font-letterspacing-md: 2;
-    --font-letterspacing-none: 0;
-    --font-textdecoration-none: none;
-    --font-textdecoration-underline: underline;
-    --font-paragraphindent-none: 0 px;
-    --font-paragraphspacing-none: 0;
-    --font-paragraphspacing-spaced: 8;
-    --typography-paragraph-strong: 700 18px/145% Roboto;
-    --typography-paragraph-regular: 400 18px/145% Roboto;
-    --typography-small-medium: 500 14px/140% Roboto;
-    --typography-small-strong: 700 14px/140% Roboto;
-    --typography-small-regular: 400 14px/140% Roboto;
-    --typography-small-highlight: 400 14px/140% Roboto;
-    --typography-label-medium: 500 18px/135% Roboto;
-    --typography-label-strong: 600 18px/135% Roboto;
-    --typography-label-regular: 400 18px/135% Roboto;
-    --typography-label-highlight: 500 18px/135% Roboto;
-    --typography-caption: 400 13px/125% Roboto;
-    --typography-h1: 700 44px/110% Roboto;
-    --typography-h2: 600 28px/115% Roboto;
-    --typography-h3: 600 24px/115% Roboto;
-    --typography-h4: 600 20px/120% Roboto;
-  }
-  
+  --border-width-0: 0;
+  --border-width-lg: 4px;
+  --border-width-md: 2px;
+  --border-width-sm: 1px;
+  --border-width-none: 0;
+  --border-width-default: 1px;
+  --border-width-interaction: 2px;
+  --border-radius-pill: 20px;
+  --border-radius-round: 100px;
+  --border-radius-sm: 4px;
+  --border-radius-none: 0px;
+  --border-radius-default: 4px;
+  --dimension-0: 0px;
+  --dimension-1: 1px;
+  --dimension-2: 2px;
+  --dimension-4: 4px;
+  --dimension-5: 5px;
+  --dimension-8: 8px;
+  --dimension-10: 10px;
+  --dimension-12: 12px;
+  --dimension-16: 16px;
+  --dimension-20: 20px;
+  --dimension-24: 24px;
+  --dimension-32: 32px;
+  --dimension-40: 40px;
+  --dimension-48: 48px;
+  --dimension-56: 56px;
+  --dimension-64: 64px;
+  --dimension-72: 72px;
+  --dimension-80: 80px;
+  --dimension-88: 88px;
+  --dimension-100: 100px;
+  --dimension-auto: space-between; /* propriedade space-between */
+  --breakpoint-lg: 1440;
+  --breakpoint-sm: 1024;
+  --color-info: hsl(207 100% 90.1%);
+  --color-disabled: lch(94.7 0 0);
+  --color-primary: hsla(207,100%,34%,1); /* Cor da marca, CTA */
+  --color-success: #24A148;
+  --color-warning: #DA1E28;
+  --color-attention: #fDDC69;
+  --color-neutral-100: #1e2224;
+  --color-neutral-200: #4f4f4f;
+  --color-neutral-300: #777777;
+  --color-neutral-400: #737373;
+  --color-neutral-500: #969696;
+  --color-neutral-600: #bdbdbd;
+  --color-neutral-700: #e0e0e0;
+  --color-neutral-800: #eeeeee;
+  --color-neutral-900: #f7f7f7;
+  --color-neutral-950: #fefefd;
+  --color-base-hue: 207;
+  --color-base-saturation: 100%;
+  --color-base-lightness: 34%;
+  --color-modifier-10: 0.1;
+  --color-modifier-15: 0.15;
+  --color-modifier-20: 0.20;
+  --color-modifier-25: 0.25;
+  --color-modifier-30: 0.30;
+  --color-modifier-35: 0.35;
+  --color-modifier-40: 0.40;
+  --color-modifier-45: 0.45;
+  --color-modifier-50: 0.50;
+  --color-modifier-55: 0.55;
+  --color-modifier-60: 0.5;
+  --color-modifier-85: 0.85;
+  --color-modifier-90: 0.9;
+  --color-modifier-92: 0.92;
+  --color-modifier-95: 0.95;
+  --color-modifier-hover: 0.95;
+  --color-modifier-active: 0.9;
+  --color-modifier-selection: 0.92;
+  --color-modifier-disabled: 0.1;
+  --color-modifier-inactive: 0.5;
+  --color-border-action: hsla(207,100%,34%,1);
+  --color-border-interaction: hsla(207,100%,34%,1);
+  --color-border-on-site: lch(25.5 32 270);
+  --color-border-success: #24A148;
+  --color-border-warning: #DA1E28;
+  --color-border-disabled: lch(71 0 0);
+  --color-border-container: #e0e0e0;
+  --color-border-strong: #777777;
+  --color-bg-brand-alt: lch(25.5 32 270); /* cor da marca para uso em sites secundários, diretorias, células, julgadorias... */
+  --color-bg-brand-default: hsla(207,100%,34%,1); /* cor para uso em fundos quando a cor da marca é necessária */
+  --color-bg-warning-tint: hsl(357 75.8% 92.3%); /* cor de fundo para uso em elementos cuja finalidade é informar um erro */
+  --color-bg-warning-base: #DA1E28; /* cor de fundo para uso em elementos cuja finalidade é informar um erro */
+  --color-bg-primary: #fefefd; /* cor de fundo principal */
+  --color-bg-secondary: #f7f7f7; /* Cor de fundo para ser usada sobre a primária.  Pode ser usado em cards e containers semelhantes.  */
+  --color-bg-terciary: #eeeeee; /* Cor de fundo para ser usada sobre a primária.  Sugere-se que seja usado em headers de forms ou filtros. */
+  --color-bg-icon: hsl(207 100% 90.1%);
+  --color-bg-info: hsl(207 100% 90.1%); /* cor de fundo para elementos visuais que têm como finalidade o repasse de informações relevantes ao fluxo  */
+  --color-bg-inverse: #777777;
+  --color-bg-hover: hsl(207 100% 96.7%); /* Cor que denota o estado de interação contemplado pela pseudo-classe :hover do css */
+  --color-bg-active: hsl(200 9.09% 91.3%); /* Cor que denota o estado de interação contemplado pela pseudo-classe :active do css */
+  --color-bg-selection: hsl(207 100% 94.7%);
+  --color-bg-on-site: lch(25.5 32 270);
+  --color-bg-disabled: lch(94.7 0 0);
+  --color-bg-action: hsla(207,100%,34%,1);
+  --color-bg-success: hsl(137 63.5% 82.8%); /* cor fundo para elementos que desejam informar o sucesso de uma operação */
+  --color-bg-attention: hsl(46.6 97.4% 88.7%);
+  --color-bg-line-default: #e0e0e0;
+  --color-bg-activee: hsla(207,100%,34%,1); /* Cor o qual indica o estado de um  item ou etapa atualmente selecionado. Não se deve confundi-lo com color.bg.state.active */
+  --color-bg-inactive: lch(56.4 1.25 233); /* Cor o qual indica o estado de um  item ou etapa atualmente selecionado. Não se deve confundi-lo com color.bg.state.active */
+  --color-fg-on-site: lch(25.5 32 270);
+  --color-fg-warning: #DA1E28;
+  --color-fg-disabled: lch(71 0 0); /* cor de foreground para elementos desabilitados */
+  --color-fg-success: #24A148;
+  --color-fg-action: hsla(207,100%,34%,1); /* cor para actions em geral */
+  --color-fg-interaction: hsla(207,100%,34%,1);
+  --color-fg-on-dark-primary: #fefefd;
+  --color-fg-on-dark-secondary: #e0e0e0;
+  --color-fg-on-light-primary: #1e2224;
+  --color-fg-on-light-secondary: #777777;
+  --color-fg-on-light-terciary: #969696;
+  --elevation-0: 0 0 0 0 #00000033;
+  --elevation-1: 0 2px 1px 0 #00000033;
+  --elevation-2: 0 3px 1px 0 #00000033;
+  --elevation-3: 0 3px 3px 0 #00000033;
+  --elevation-4: 0 2px 4px 0 #00000033;
+  --elevation-5: 0 3px 5px 0 #00000033;
+  --elevation-6: 0 3px 5px 0 #00000033;
+  --elevation-7: 0 4px 5px 0 #00000033;
+  --elevation-8: 0 5px 5px 0 #00000033;
+  --elevation-9: 0 5px 6px 0 #00000033;
+  --elevation-10: 0 6px 6px 0 #00000033;
+  --elevation-11: 0 6px 7px 0 #00000033;
+  --elevation-12: 0 7px 8px 0 #00000033;
+  --elevation-13: 0 7px 8px 0 #00000033;
+  --elevation-14: 0 7px 9px 0 #00000033;
+  --elevation-15: 0 8px 9px 0 #00000033;
+  --elevation-16: 0 8px 10px 0 #00000033;
+  --elevation-17: 0 8px 11px 0 #00000033;
+  --elevation-18: 0 9px 11px 0 #00000033;
+  --elevation-19: 0 9px 12px 0 #00000033;
+  --elevation-20: 0 10px 13px 0 #00000033;
+  --elevation-21: 0 10px 13px 0 #00000033;
+  --elevation-22: 0 10px 14px 0 #00000033;
+  --elevation-23: 0 11px 14px 0 #00000033;
+  --elevation-24: 0 11px 15px 0 #00000033;
+  --elevation-active: 0 5px 14px 0 #0000001f, 0 9px 10px 0 #00000024, 0 5px 5px 0 #00000033;
+  --elevation-default: 0 1px 5px 0 #0000001f, 0 2px 2px 0 #00000024, 0 1px 1px 0 #00000033;
+  --elevation-shadows: 0 6px 24px 0 #0000001a;
+  --size-50: 4px;
+  --size-100: 12px;
+  --size-200: 16px;
+  --size-300: 24px;
+  --size-400: 32px;
+  --size-500: 40px;
+  --size-600: 48px;
+  --size-700: 56px;
+  --size-800: 72px;
+  --size-line: 1px;
+  --size-input-md: 56px;
+  --size-input-sm: 48px;
+  --size-button-lg: 56px; /* Botões usados em formulários ou para finalizar fluxos. */
+  --size-button-md: 48px;
+  --size-button-sm: 40px; /* botão padrão / default. */
+  --size-button-xlg: 72px; /* Somente usando no botão Big Button. */
+  --size-button-xsm: 36px; /* botão usado dentro de tabelas. */
+  --padding-100: 4px;
+  --padding-200: 8px;
+  --padding-250: 12px;
+  --padding-300: 16px;
+  --padding-400: 24px;
+  --padding-500: 32px;
+  --padding-600: 40px;
+  --padding-700: 48px;
+  --padding-800: 64px;
+  --padding-900: 88px;
+  --padding-none: 0px;
+  --padding-dialog: 40px;
+  --padding-accordion: 32px;
+  --gap-50: 4px;
+  --gap-100: 8px;
+  --gap-150: 12px;
+  --gap-200: 16px;
+  --gap-250: 20px;
+  --gap-300: 24px;
+  --gap-400: 32px;
+  --gap-500: 40px;
+  --gap-600: 48px;
+  --gap-700: 56px;
+  --gap-800: 64px;
+  --gap-900: 88px;
+  --gap-auto: space-between;
+  --gap-none: 0px;
+  --gap-card-lg: 24px;
+  --gap-card-md: 16px;
+  --gap-card-sm: 8px;
+  --gap-form-lg: 40px; /* Usado para formulários com poucos itens / inputs */
+  --gap-form-md: 32px; /* Espaço padrão entre elementos de um formulário.  */
+  --gap-form-sm: 24px; /* Usado para formulários de busca / filtros densos, com muitos inputs */
+  --gap-form-default: 32px;
+  --gap-footer-md: 10px; /* Espaço entre o título das sessões e os itens de navegação */
+  --gap-footer-sm: 5px; /* Espaço entre os itens de navegação do footer.  */
+  --text-color-title: #1e2224;
+  --text-color-on-site: lch(25.5 32 270); /* cor para actions em geral */
+  --text-color-interaction: hsla(207,100%,34%,1);
+  --text-color-action: hsla(207,100%,34%,1); /* cor para actions em geral */
+  --text-color-body: #777777;
+  --text-color-description: #969696;
+  --text-color-disabled: lch(71 0 0); /* Utilização em textos de componentes desabilitados. Para utilização sem o fundo color.background.disabled, ou seja, em background.color.container.primary, utilizar com opacidade 25%. */
+  --text-color-warning: #DA1E28;
+  --text-color-success: #24A148;
+  --text-color-on-color-title: #fefefd;
+  --text-color-on-color-body: #e0e0e0;
+  --icon-color-action: hsla(207,100%,34%,1);
+  --icon-color-interaction: hsla(207,100%,34%,1);
+  --icon-color-default: #1e2224; /* Cor secundária para uso no foreground. Deve ser utilizada em texto corrido e outros elementos que necessitam destaque porém não possuem um nível hierárquico prioritário. */
+  --icon-color-on-site: lch(25.5 32 270);
+  --icon-color-success: #24A148;
+  --icon-color-warning: #DA1E28;
+  --icon-color-disabled: lch(71 0 0); /* Utilização em ícones de componentes desabilitados. Para utilização sem o fundo color.background.disabled, ou seja, em background.color.container.primary, utilizar com opacidade 25%. */
+  --icon-color-on-color: #fefefd;
+  --icon-color-on-dark-secondary: #e0e0e0;
+  --icon-size-sm: 24px;
+  --icon-size-md: 32px;
+  --container-color-primary: #fefefd; /* cor de fundo principal */
+  --container-color-secondary: #f7f7f7; /* Cor de fundo para ser usada sobre a primária.  Pode ser usado em cards e containers semelhantes.  */
+  --container-color-terciary: #eeeeee; /* Cor de fundo para ser usada sobre a primária.  Sugere-se que seja usado em headers de forms ou filtros. */
+  --container-color-inverse: #777777;
+  --button-primary-color-default: hsla(207,100%,34%,1);
+  --button-primary-color-hover: rgb(15% 46.8% 72.8%); /* cor para elementos action quando o mouse for passado em cima (HOVER) */
+  --button-primary-color-active: lch(33.4 41.8 270); /* cor para elementos action quando pressionados (PRESSED) */
+  --button-warning-color-default: #DA1E28; /* cor para uso em elementos action quando o mesmo tenha intuito de realizar uma operação indesejada */
+  --button-warning-color-hover: hsl(357 75.8% 56.3%); /* cor para uso em elementos action quando o mesmo tenha intuito de realizar uma operação indesejada */
+  --button-warning-color-active: lch(40.7 70.7 34.2); /* cor para uso em elementos action quando o mesmo tenha intuito de realizar uma operação indesejada */
+  --button-size-sm: 40px;
+  --button-size-md: 48px;
+  --button-size-lg: 56px;
+  --form-gap-vertical: 32px;
+  --form-gap-horizontal: 16px;
+  --form-padding-top: 32px;
+  --form-padding-bottom: 40px;
+  --form-padding-horizontal: 32px;
+  --form-header-padding-horizontal: 16px;
+  --form-header-padding-vertical: 8px;
+  --title-font-size: 20px;
+  --title-text-case: none;
+  --title-font-family: Roboto;
+  --title-font-weight: 600;
+  --title-line-height: 1.2;
+  --title-letter-spacing: 0;
+  --title-text-decoration: none;
+  --title-paragraph-spacing: 0;
+  --font-size-50: 12px;
+  --font-size-100: 13px;
+  --font-size-150: 14px;
+  --font-size-200: 16px;
+  --font-size-300: 18px;
+  --font-size-400: 20px;
+  --font-size-500: 22px;
+  --font-size-600: 24px;
+  --font-size-700: 28px;
+  --font-size-800: 32px;
+  --font-size-900: 44px;
+  --font-family: Roboto;
+  --font-weight-bold: 700;
+  --font-weight-medium: 500;
+  --font-weight-regular: 400;
+  --font-weight-semibold: 600;
+  --font-textcase-none: none;
+  --font-textcase-uppercase: uppercase;
+  --font-textcase-capitalize: capitalize;
+  --font-lineheight-100: 1.1;
+  --font-lineheight-200: 1.15;
+  --font-lineheight-300: 1.2;
+  --font-lineheight-400: 1.25;
+  --font-lineheight-500: 1.3;
+  --font-lineheight-600: 1.35;
+  --font-lineheight-700: 1.4;
+  --font-lineheight-750: 1.45;
+  --font-lineheight-800: 1.5;
+  --font-lineheight-900: 1.75;
+  --font-lineheight-auto: auto;
+  --font-letterspacing-md: 2;
+  --font-letterspacing-none: 0;
+  --font-textdecoration-none: none;
+  --font-textdecoration-underline: underline;
+  --font-paragraphindent-none: 0 px;
+  --font-paragraphspacing-none: 0;
+  --font-paragraphspacing-spaced: 8;
+  --typography-paragraph-strong-font-size: 18px; /* Estilo tipográfico de utilização em trechos de texto corrido, quando o mesmo requer destaque em relação ao resto do texto, devendo ser utilizado de forma pontual exclusivamente nestes casos. */
+  --typography-paragraph-strong-text-case: none; /* Estilo tipográfico de utilização em trechos de texto corrido, quando o mesmo requer destaque em relação ao resto do texto, devendo ser utilizado de forma pontual exclusivamente nestes casos. */
+  --typography-paragraph-strong-font-family: Roboto; /* Estilo tipográfico de utilização em trechos de texto corrido, quando o mesmo requer destaque em relação ao resto do texto, devendo ser utilizado de forma pontual exclusivamente nestes casos. */
+  --typography-paragraph-strong-font-weight: 700; /* Estilo tipográfico de utilização em trechos de texto corrido, quando o mesmo requer destaque em relação ao resto do texto, devendo ser utilizado de forma pontual exclusivamente nestes casos. */
+  --typography-paragraph-strong-line-height: 1.45; /* Estilo tipográfico de utilização em trechos de texto corrido, quando o mesmo requer destaque em relação ao resto do texto, devendo ser utilizado de forma pontual exclusivamente nestes casos. */
+  --typography-paragraph-strong-letter-spacing: 0; /* Estilo tipográfico de utilização em trechos de texto corrido, quando o mesmo requer destaque em relação ao resto do texto, devendo ser utilizado de forma pontual exclusivamente nestes casos. */
+  --typography-paragraph-strong-text-decoration: none; /* Estilo tipográfico de utilização em trechos de texto corrido, quando o mesmo requer destaque em relação ao resto do texto, devendo ser utilizado de forma pontual exclusivamente nestes casos. */
+  --typography-paragraph-strong-paragraph-spacing: 8; /* Estilo tipográfico de utilização em trechos de texto corrido, quando o mesmo requer destaque em relação ao resto do texto, devendo ser utilizado de forma pontual exclusivamente nestes casos. */
+  --typography-paragraph-regular-font-size: 18px; /* Utilização em textos corridos como artigos, leis, notícias e afins. */
+  --typography-paragraph-regular-text-case: none; /* Utilização em textos corridos como artigos, leis, notícias e afins. */
+  --typography-paragraph-regular-font-family: Roboto; /* Utilização em textos corridos como artigos, leis, notícias e afins. */
+  --typography-paragraph-regular-font-weight: 400; /* Utilização em textos corridos como artigos, leis, notícias e afins. */
+  --typography-paragraph-regular-line-height: 1.45; /* Utilização em textos corridos como artigos, leis, notícias e afins. */
+  --typography-paragraph-regular-letter-spacing: 0; /* Utilização em textos corridos como artigos, leis, notícias e afins. */
+  --typography-paragraph-regular-text-decoration: none; /* Utilização em textos corridos como artigos, leis, notícias e afins. */
+  --typography-paragraph-regular-paragraph-spacing: 8; /* Utilização em textos corridos como artigos, leis, notícias e afins. */
+  --typography-small-medium-font-size: 14px; /* Estilo tipográfico de uso geral que tem como finalidade única de proporcionar hierarquia visual em situações que paragraph / label não cumprem esse papel. Seu uso deve ser evitado pois pode causar problemas de acessibilidade. */
+  --typography-small-medium-text-case: none; /* Estilo tipográfico de uso geral que tem como finalidade única de proporcionar hierarquia visual em situações que paragraph / label não cumprem esse papel. Seu uso deve ser evitado pois pode causar problemas de acessibilidade. */
+  --typography-small-medium-font-family: Roboto; /* Estilo tipográfico de uso geral que tem como finalidade única de proporcionar hierarquia visual em situações que paragraph / label não cumprem esse papel. Seu uso deve ser evitado pois pode causar problemas de acessibilidade. */
+  --typography-small-medium-font-weight: 500; /* Estilo tipográfico de uso geral que tem como finalidade única de proporcionar hierarquia visual em situações que paragraph / label não cumprem esse papel. Seu uso deve ser evitado pois pode causar problemas de acessibilidade. */
+  --typography-small-medium-line-height: 1.4; /* Estilo tipográfico de uso geral que tem como finalidade única de proporcionar hierarquia visual em situações que paragraph / label não cumprem esse papel. Seu uso deve ser evitado pois pode causar problemas de acessibilidade. */
+  --typography-small-medium-letter-spacing: 0; /* Estilo tipográfico de uso geral que tem como finalidade única de proporcionar hierarquia visual em situações que paragraph / label não cumprem esse papel. Seu uso deve ser evitado pois pode causar problemas de acessibilidade. */
+  --typography-small-medium-text-decoration: none; /* Estilo tipográfico de uso geral que tem como finalidade única de proporcionar hierarquia visual em situações que paragraph / label não cumprem esse papel. Seu uso deve ser evitado pois pode causar problemas de acessibilidade. */
+  --typography-small-medium-paragraph-spacing: 8; /* Estilo tipográfico de uso geral que tem como finalidade única de proporcionar hierarquia visual em situações que paragraph / label não cumprem esse papel. Seu uso deve ser evitado pois pode causar problemas de acessibilidade. */
+  --typography-small-strong-font-size: 14px; /* Estilo tipográfico de uso geral que tem como finalidade única de proporcionar hierarquia visual em situações que paragraph / label não cumprem esse papel. Seu uso deve ser evitado pois pode causar problemas de acessibilidade. */
+  --typography-small-strong-text-case: none; /* Estilo tipográfico de uso geral que tem como finalidade única de proporcionar hierarquia visual em situações que paragraph / label não cumprem esse papel. Seu uso deve ser evitado pois pode causar problemas de acessibilidade. */
+  --typography-small-strong-font-family: Roboto; /* Estilo tipográfico de uso geral que tem como finalidade única de proporcionar hierarquia visual em situações que paragraph / label não cumprem esse papel. Seu uso deve ser evitado pois pode causar problemas de acessibilidade. */
+  --typography-small-strong-font-weight: 700; /* Estilo tipográfico de uso geral que tem como finalidade única de proporcionar hierarquia visual em situações que paragraph / label não cumprem esse papel. Seu uso deve ser evitado pois pode causar problemas de acessibilidade. */
+  --typography-small-strong-line-height: 1.4; /* Estilo tipográfico de uso geral que tem como finalidade única de proporcionar hierarquia visual em situações que paragraph / label não cumprem esse papel. Seu uso deve ser evitado pois pode causar problemas de acessibilidade. */
+  --typography-small-strong-letter-spacing: 0; /* Estilo tipográfico de uso geral que tem como finalidade única de proporcionar hierarquia visual em situações que paragraph / label não cumprem esse papel. Seu uso deve ser evitado pois pode causar problemas de acessibilidade. */
+  --typography-small-strong-text-decoration: none; /* Estilo tipográfico de uso geral que tem como finalidade única de proporcionar hierarquia visual em situações que paragraph / label não cumprem esse papel. Seu uso deve ser evitado pois pode causar problemas de acessibilidade. */
+  --typography-small-strong-paragraph-spacing: 8; /* Estilo tipográfico de uso geral que tem como finalidade única de proporcionar hierarquia visual em situações que paragraph / label não cumprem esse papel. Seu uso deve ser evitado pois pode causar problemas de acessibilidade. */
+  --typography-small-regular-font-size: 14px; /* Estilo tipográfico de uso geral que tem como finalidade única de proporcionar hierarquia visual em situações que paragraph / label não cumprem esse papel. Seu uso deve ser evitado pois pode causar problemas de acessibilidade. */
+  --typography-small-regular-text-case: none; /* Estilo tipográfico de uso geral que tem como finalidade única de proporcionar hierarquia visual em situações que paragraph / label não cumprem esse papel. Seu uso deve ser evitado pois pode causar problemas de acessibilidade. */
+  --typography-small-regular-font-family: Roboto; /* Estilo tipográfico de uso geral que tem como finalidade única de proporcionar hierarquia visual em situações que paragraph / label não cumprem esse papel. Seu uso deve ser evitado pois pode causar problemas de acessibilidade. */
+  --typography-small-regular-font-weight: 400; /* Estilo tipográfico de uso geral que tem como finalidade única de proporcionar hierarquia visual em situações que paragraph / label não cumprem esse papel. Seu uso deve ser evitado pois pode causar problemas de acessibilidade. */
+  --typography-small-regular-line-height: 1.4; /* Estilo tipográfico de uso geral que tem como finalidade única de proporcionar hierarquia visual em situações que paragraph / label não cumprem esse papel. Seu uso deve ser evitado pois pode causar problemas de acessibilidade. */
+  --typography-small-regular-letter-spacing: 0; /* Estilo tipográfico de uso geral que tem como finalidade única de proporcionar hierarquia visual em situações que paragraph / label não cumprem esse papel. Seu uso deve ser evitado pois pode causar problemas de acessibilidade. */
+  --typography-small-regular-text-decoration: none; /* Estilo tipográfico de uso geral que tem como finalidade única de proporcionar hierarquia visual em situações que paragraph / label não cumprem esse papel. Seu uso deve ser evitado pois pode causar problemas de acessibilidade. */
+  --typography-small-regular-paragraph-spacing: 8; /* Estilo tipográfico de uso geral que tem como finalidade única de proporcionar hierarquia visual em situações que paragraph / label não cumprem esse papel. Seu uso deve ser evitado pois pode causar problemas de acessibilidade. */
+  --typography-small-highlight-font-size: 14px; /* Estilo tipográfico de uso geral que tem como finalidade única de proporcionar hierarquia visual em situações que paragraph / label não cumprem esse papel. Seu uso deve ser evitado pois pode causar problemas de acessibilidade. */
+  --typography-small-highlight-text-case: none; /* Estilo tipográfico de uso geral que tem como finalidade única de proporcionar hierarquia visual em situações que paragraph / label não cumprem esse papel. Seu uso deve ser evitado pois pode causar problemas de acessibilidade. */
+  --typography-small-highlight-font-family: Roboto; /* Estilo tipográfico de uso geral que tem como finalidade única de proporcionar hierarquia visual em situações que paragraph / label não cumprem esse papel. Seu uso deve ser evitado pois pode causar problemas de acessibilidade. */
+  --typography-small-highlight-font-weight: 400; /* Estilo tipográfico de uso geral que tem como finalidade única de proporcionar hierarquia visual em situações que paragraph / label não cumprem esse papel. Seu uso deve ser evitado pois pode causar problemas de acessibilidade. */
+  --typography-small-highlight-line-height: 1.4; /* Estilo tipográfico de uso geral que tem como finalidade única de proporcionar hierarquia visual em situações que paragraph / label não cumprem esse papel. Seu uso deve ser evitado pois pode causar problemas de acessibilidade. */
+  --typography-small-highlight-letter-spacing: 0; /* Estilo tipográfico de uso geral que tem como finalidade única de proporcionar hierarquia visual em situações que paragraph / label não cumprem esse papel. Seu uso deve ser evitado pois pode causar problemas de acessibilidade. */
+  --typography-small-highlight-text-decoration: underline; /* Estilo tipográfico de uso geral que tem como finalidade única de proporcionar hierarquia visual em situações que paragraph / label não cumprem esse papel. Seu uso deve ser evitado pois pode causar problemas de acessibilidade. */
+  --typography-small-highlight-paragraph-spacing: 8; /* Estilo tipográfico de uso geral que tem como finalidade única de proporcionar hierarquia visual em situações que paragraph / label não cumprem esse papel. Seu uso deve ser evitado pois pode causar problemas de acessibilidade. */
+  --typography-label-medium-font-size: 18px; /* Estilo tipográfico que tem como finalidade a utilização em rótulos de componentes acionáveis em seu estado default. */
+  --typography-label-medium-text-case: none; /* Estilo tipográfico que tem como finalidade a utilização em rótulos de componentes acionáveis em seu estado default. */
+  --typography-label-medium-font-family: Roboto; /* Estilo tipográfico que tem como finalidade a utilização em rótulos de componentes acionáveis em seu estado default. */
+  --typography-label-medium-font-weight: 500; /* Estilo tipográfico que tem como finalidade a utilização em rótulos de componentes acionáveis em seu estado default. */
+  --typography-label-medium-line-height: 1.35; /* Estilo tipográfico que tem como finalidade a utilização em rótulos de componentes acionáveis em seu estado default. */
+  --typography-label-medium-letter-spacing: 0; /* Estilo tipográfico que tem como finalidade a utilização em rótulos de componentes acionáveis em seu estado default. */
+  --typography-label-medium-text-decoration: none; /* Estilo tipográfico que tem como finalidade a utilização em rótulos de componentes acionáveis em seu estado default. */
+  --typography-label-medium-paragraph-spacing: 0; /* Estilo tipográfico que tem como finalidade a utilização em rótulos de componentes acionáveis em seu estado default. */
+  --typography-label-strong-font-size: 18px; /* Estilo com a finalidade de utilização em rótulos de componentes não acionáveis, como títulos em tabelas. */
+  --typography-label-strong-text-case: none; /* Estilo com a finalidade de utilização em rótulos de componentes não acionáveis, como títulos em tabelas. */
+  --typography-label-strong-font-family: Roboto; /* Estilo com a finalidade de utilização em rótulos de componentes não acionáveis, como títulos em tabelas. */
+  --typography-label-strong-font-weight: 600; /* Estilo com a finalidade de utilização em rótulos de componentes não acionáveis, como títulos em tabelas. */
+  --typography-label-strong-line-height: 1.35; /* Estilo com a finalidade de utilização em rótulos de componentes não acionáveis, como títulos em tabelas. */
+  --typography-label-strong-letter-spacing: 0; /* Estilo com a finalidade de utilização em rótulos de componentes não acionáveis, como títulos em tabelas. */
+  --typography-label-strong-text-decoration: none; /* Estilo com a finalidade de utilização em rótulos de componentes não acionáveis, como títulos em tabelas. */
+  --typography-label-strong-paragraph-spacing: 0; /* Estilo com a finalidade de utilização em rótulos de componentes não acionáveis, como títulos em tabelas. */
+  --typography-label-regular-font-size: 18px; /* Estilo tipográfico para ser usado em componentes em situações de elementos não interativos, nem em títulos de componentes. */
+  --typography-label-regular-text-case: none; /* Estilo tipográfico para ser usado em componentes em situações de elementos não interativos, nem em títulos de componentes. */
+  --typography-label-regular-font-family: Roboto; /* Estilo tipográfico para ser usado em componentes em situações de elementos não interativos, nem em títulos de componentes. */
+  --typography-label-regular-font-weight: 400; /* Estilo tipográfico para ser usado em componentes em situações de elementos não interativos, nem em títulos de componentes. */
+  --typography-label-regular-line-height: 1.35; /* Estilo tipográfico para ser usado em componentes em situações de elementos não interativos, nem em títulos de componentes. */
+  --typography-label-regular-letter-spacing: 0; /* Estilo tipográfico para ser usado em componentes em situações de elementos não interativos, nem em títulos de componentes. */
+  --typography-label-regular-text-decoration: none; /* Estilo tipográfico para ser usado em componentes em situações de elementos não interativos, nem em títulos de componentes. */
+  --typography-label-regular-paragraph-spacing: 0; /* Estilo tipográfico para ser usado em componentes em situações de elementos não interativos, nem em títulos de componentes. */
+  --typography-label-highlight-font-size: 18px; /* Estilo tipográficos para uso em links de texto em estado hover. */
+  --typography-label-highlight-text-case: none; /* Estilo tipográficos para uso em links de texto em estado hover. */
+  --typography-label-highlight-font-family: Roboto; /* Estilo tipográficos para uso em links de texto em estado hover. */
+  --typography-label-highlight-font-weight: 500; /* Estilo tipográficos para uso em links de texto em estado hover. */
+  --typography-label-highlight-line-height: 1.35; /* Estilo tipográficos para uso em links de texto em estado hover. */
+  --typography-label-highlight-letter-spacing: 0; /* Estilo tipográficos para uso em links de texto em estado hover. */
+  --typography-label-highlight-text-decoration: underline; /* Estilo tipográficos para uso em links de texto em estado hover. */
+  --typography-label-highlight-paragraph-spacing: 0; /* Estilo tipográficos para uso em links de texto em estado hover. */
+  --typography-caption-font-size: 13px; /* Estilo tipográfico para utilização em textos de apoio em componentes. Sua utilização deve ser evitada em outros cenários pois o tamanho reduzido pode levar a problemas de acessibilidade. */
+  --typography-caption-text-case: none; /* Estilo tipográfico para utilização em textos de apoio em componentes. Sua utilização deve ser evitada em outros cenários pois o tamanho reduzido pode levar a problemas de acessibilidade. */
+  --typography-caption-font-family: Roboto; /* Estilo tipográfico para utilização em textos de apoio em componentes. Sua utilização deve ser evitada em outros cenários pois o tamanho reduzido pode levar a problemas de acessibilidade. */
+  --typography-caption-font-weight: 400; /* Estilo tipográfico para utilização em textos de apoio em componentes. Sua utilização deve ser evitada em outros cenários pois o tamanho reduzido pode levar a problemas de acessibilidade. */
+  --typography-caption-line-height: 1.25; /* Estilo tipográfico para utilização em textos de apoio em componentes. Sua utilização deve ser evitada em outros cenários pois o tamanho reduzido pode levar a problemas de acessibilidade. */
+  --typography-caption-letter-spacing: 0; /* Estilo tipográfico para utilização em textos de apoio em componentes. Sua utilização deve ser evitada em outros cenários pois o tamanho reduzido pode levar a problemas de acessibilidade. */
+  --typography-caption-text-decoration: none; /* Estilo tipográfico para utilização em textos de apoio em componentes. Sua utilização deve ser evitada em outros cenários pois o tamanho reduzido pode levar a problemas de acessibilidade. */
+  --typography-caption-paragraph-spacing: 0; /* Estilo tipográfico para utilização em textos de apoio em componentes. Sua utilização deve ser evitada em outros cenários pois o tamanho reduzido pode levar a problemas de acessibilidade. */
+  --typography-h1-font-size: 44px; /* Estilo tipográfico para uso no título de páginas e serviços */
+  --typography-h1-text-case: none; /* Estilo tipográfico para uso no título de páginas e serviços */
+  --typography-h1-font-family: Roboto; /* Estilo tipográfico para uso no título de páginas e serviços */
+  --typography-h1-font-weight: 700; /* Estilo tipográfico para uso no título de páginas e serviços */
+  --typography-h1-line-height: 1.1; /* Estilo tipográfico para uso no título de páginas e serviços */
+  --typography-h1-letter-spacing: 0; /* Estilo tipográfico para uso no título de páginas e serviços */
+  --typography-h1-text-decoration: none; /* Estilo tipográfico para uso no título de páginas e serviços */
+  --typography-h1-paragraph-spacing: 8; /* Estilo tipográfico para uso no título de páginas e serviços */
+  --typography-h2-font-size: 28px; /* Estilo para uso em subtítulo de serviços. */
+  --typography-h2-text-case: none; /* Estilo para uso em subtítulo de serviços. */
+  --typography-h2-font-family: Roboto; /* Estilo para uso em subtítulo de serviços. */
+  --typography-h2-font-weight: 600; /* Estilo para uso em subtítulo de serviços. */
+  --typography-h2-line-height: 1.15; /* Estilo para uso em subtítulo de serviços. */
+  --typography-h2-letter-spacing: 0; /* Estilo para uso em subtítulo de serviços. */
+  --typography-h2-text-decoration: none; /* Estilo para uso em subtítulo de serviços. */
+  --typography-h2-paragraph-spacing: 0; /* Estilo para uso em subtítulo de serviços. */
+  --typography-h3-font-size: 24px; /* Estilo tipográfico para utilização em cabeçalhos de sessões, como cabeçalhos de tabela (ex. componente Header) */
+  --typography-h3-text-case: none; /* Estilo tipográfico para utilização em cabeçalhos de sessões, como cabeçalhos de tabela (ex. componente Header) */
+  --typography-h3-font-family: Roboto; /* Estilo tipográfico para utilização em cabeçalhos de sessões, como cabeçalhos de tabela (ex. componente Header) */
+  --typography-h3-font-weight: 600; /* Estilo tipográfico para utilização em cabeçalhos de sessões, como cabeçalhos de tabela (ex. componente Header) */
+  --typography-h3-line-height: 1.15; /* Estilo tipográfico para utilização em cabeçalhos de sessões, como cabeçalhos de tabela (ex. componente Header) */
+  --typography-h3-letter-spacing: 0; /* Estilo tipográfico para utilização em cabeçalhos de sessões, como cabeçalhos de tabela (ex. componente Header) */
+  --typography-h3-text-decoration: none; /* Estilo tipográfico para utilização em cabeçalhos de sessões, como cabeçalhos de tabela (ex. componente Header) */
+  --typography-h3-paragraph-spacing: 0; /* Estilo tipográfico para utilização em cabeçalhos de sessões, como cabeçalhos de tabela (ex. componente Header) */
+  --typography-h4-font-size: 20px; /* Estilo tipográfico utilitário para uso em situações que é necessário criar hierarquia visual e os demais headings já foram utilizados. */
+  --typography-h4-text-case: none; /* Estilo tipográfico utilitário para uso em situações que é necessário criar hierarquia visual e os demais headings já foram utilizados. */
+  --typography-h4-font-family: Roboto; /* Estilo tipográfico utilitário para uso em situações que é necessário criar hierarquia visual e os demais headings já foram utilizados. */
+  --typography-h4-font-weight: 600; /* Estilo tipográfico utilitário para uso em situações que é necessário criar hierarquia visual e os demais headings já foram utilizados. */
+  --typography-h4-line-height: 1.2; /* Estilo tipográfico utilitário para uso em situações que é necessário criar hierarquia visual e os demais headings já foram utilizados. */
+  --typography-h4-letter-spacing: 0; /* Estilo tipográfico utilitário para uso em situações que é necessário criar hierarquia visual e os demais headings já foram utilizados. */
+  --typography-h4-text-decoration: none; /* Estilo tipográfico utilitário para uso em situações que é necessário criar hierarquia visual e os demais headings já foram utilizados. */
+  --typography-h4-paragraph-spacing: 0; /* Estilo tipográfico utilitário para uso em situações que é necessário criar hierarquia visual e os demais headings já foram utilizados. */
+}

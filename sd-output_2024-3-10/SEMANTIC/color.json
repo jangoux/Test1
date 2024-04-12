@@ -1,0 +1,325 @@
+{
+  "color": {
+    "border": {
+      "action": {
+        "type": "color",
+        "value": "{color.primary}",
+        "discrete": {
+          "type": "color",
+          "value": "{color.neutral.700}"
+        }
+      },
+      "interaction": {
+        "type": "color",
+        "value": "{color.primary}"
+      },
+      "on-site": {
+        "type": "color",
+        "value": "{color.primary}",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "{color.modifier.35}",
+              "space": "lch"
+            }
+          }
+        }
+      },
+      "success": {
+        "type": "color",
+        "value": "{color.success}"
+      },
+      "warning": {
+        "type": "color",
+        "value": "{color.warning}"
+      },
+      "disabled": {
+        "type": "color",
+        "value": "{color.disabled}",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0.25",
+              "space": "lch"
+            }
+          }
+        }
+      },
+      "container": {
+        "type": "color",
+        "value": "{color.neutral.700}"
+      },
+      "strong": {
+        "value": "{color.neutral.300}",
+        "type": "color"
+      }
+    },
+    "bg": {
+      "brand": {
+        "alt": {
+          "type": "color",
+          "value": "{color.primary}",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "{color.modifier.35}",
+                "space": "lch"
+              }
+            }
+          },
+          "description": "cor da marca para uso em sites secundários, diretorias, células, julgadorias..."
+        },
+        "default": {
+          "type": "color",
+          "value": "{color.primary}",
+          "description": "cor para uso em fundos quando a cor da marca é necessária"
+        }
+      },
+      "warning": {
+        "tint": {
+          "type": "color",
+          "value": "{color.warning}",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "space": "hsl",
+                "value": "{color.modifier.85}"
+              }
+            }
+          },
+          "description": "cor de fundo para uso em elementos cuja finalidade é informar um erro"
+        },
+        "base": {
+          "type": "color",
+          "value": "{color.warning}",
+          "description": "cor de fundo para uso em elementos cuja finalidade é informar um erro"
+        }
+      },
+      "primary": {
+        "type": "color",
+        "value": "{color.neutral.950}",
+        "description": "cor de fundo principal"
+      },
+      "secondary": {
+        "type": "color",
+        "value": "{color.neutral.900}",
+        "description": "Cor de fundo para ser usada sobre a primária.\n\nPode ser usado em cards e containers semelhantes.\n"
+      },
+      "terciary": {
+        "type": "color",
+        "value": "{color.neutral.800}",
+        "description": "Cor de fundo para ser usada sobre a primária.\n\nSugere-se que seja usado em headers de forms ou filtros."
+      },
+      "icon": {
+        "type": "color",
+        "value": "{color.primary}",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "{color.modifier.85}",
+              "space": "hsl"
+            }
+          }
+        }
+      },
+      "info": {
+        "type": "color",
+        "value": "{color.info}",
+        "description": "cor de fundo para elementos visuais que têm como finalidade o repasse de informações relevantes ao fluxo\n"
+      },
+      "inverse": {
+        "type": "color",
+        "value": "{color.neutral.300}"
+      },
+      "hover": {
+        "type": "color",
+        "value": "{color.primary}",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "{color.modifier.hover} ",
+              "space": "hsl"
+            }
+          }
+        },
+        "description": "Cor que denota o estado de interação contemplado pela pseudo-classe :hover do css"
+      },
+      "active": {
+        "value": "{color.neutral.100}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "{color.modifier.active} ",
+              "space": "hsl"
+            }
+          }
+        },
+        "description": "Cor que denota o estado de interação contemplado pela pseudo-classe :active do css"
+      },
+      "selection": {
+        "value": "{color.primary}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "{color.modifier.selection}",
+              "space": "hsl"
+            }
+          }
+        }
+      },
+      "on-site": {
+        "type": "color",
+        "value": "{color.primary}",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "{color.modifier.35} ",
+              "space": "lch"
+            }
+          }
+        }
+      },
+      "disabled": {
+        "type": "color",
+        "value": "{color.disabled}"
+      },
+      "action": {
+        "type": "color",
+        "value": "{color.primary}"
+      },
+      "success": {
+        "type": "color",
+        "value": "{color.success}",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "space": "hsl",
+              "value": "0.72"
+            }
+          }
+        },
+        "description": "cor fundo para elementos que desejam informar o sucesso de uma operação"
+      },
+      "attention": {
+        "type": "color",
+        "value": "{color.attention}",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "space": "hsl",
+              "value": "0.62"
+            }
+          }
+        }
+      },
+      "line": {
+        "default": {
+          "type": "color",
+          "value": "{color.neutral.700}"
+        }
+      },
+      "activee": {
+        "value": "{color.primary}",
+        "type": "color",
+        "description": "Cor o qual indica o estado de um  item ou etapa atualmente selecionado. Não se deve confundi-lo com color.bg.state.active"
+      },
+      "inactive": {
+        "value": "{color.neutral.100}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "lighten",
+              "value": "{color.modifier.inactive} ",
+              "space": "lch"
+            }
+          }
+        },
+        "description": "Cor o qual indica o estado de um  item ou etapa atualmente selecionado. Não se deve confundi-lo com color.bg.state.active"
+      }
+    },
+    "fg": {
+      "on-site": {
+        "type": "color",
+        "value": "{color.primary}",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "{color.modifier.35} ",
+              "space": "lch"
+            }
+          }
+        }
+      },
+      "warning": {
+        "type": "color",
+        "value": "{color.warning}"
+      },
+      "disabled": {
+        "type": "color",
+        "value": "{color.disabled}",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "0.25",
+              "space": "lch"
+            }
+          }
+        },
+        "description": "cor de foreground para elementos desabilitados"
+      },
+      "success": {
+        "type": "color",
+        "value": "{color.success}"
+      },
+      "action": {
+        "type": "color",
+        "value": "{color.primary}",
+        "description": "cor para actions em geral"
+      },
+      "interaction": {
+        "value": "{color.primary}",
+        "type": "color"
+      },
+      "on-dark": {
+        "primary": {
+          "type": "color",
+          "value": "{color.neutral.950}"
+        },
+        "secondary": {
+          "type": "color",
+          "value": "{color.neutral.700}"
+        }
+      },
+      "on-light": {
+        "primary": {
+          "type": "color",
+          "value": "{color.neutral.100}"
+        },
+        "secondary": {
+          "type": "color",
+          "value": "{color.neutral.300}"
+        },
+        "terciary": {
+          "type": "color",
+          "value": "{color.neutral.500}"
+        }
+      }
+    }
+  }
+}

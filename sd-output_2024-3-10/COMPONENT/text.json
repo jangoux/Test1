@@ -1,0 +1,64 @@
+{
+  "text": {
+    "color": {
+      "title": {
+        "type": "color",
+        "value": "{color.fg.on-light.primary}"
+      },
+      "on-site": {
+        "type": "color",
+        "value": "{color.fg.action}",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "darken",
+              "value": "{color.modifier.35}",
+              "space": "lch"
+            }
+          }
+        },
+        "description": "cor para actions em geral"
+      },
+      "interaction": {
+        "value": "{color.fg.interaction}",
+        "type": "color"
+      },
+      "action": {
+        "type": "color",
+        "value": "{color.fg.action}",
+        "description": "cor para actions em geral"
+      },
+      "body": {
+        "type": "color",
+        "value": "{color.fg.on-light.secondary}"
+      },
+      "description": {
+        "type": "color",
+        "value": "{color.fg.on-light.terciary}"
+      },
+      "disabled": {
+        "value": "{color.fg.disabled}",
+        "type": "color",
+        "description": "Utilização em textos de componentes desabilitados. Para utilização sem o fundo color.background.disabled, ou seja, em background.color.container.primary, utilizar com opacidade 25%."
+      },
+      "warning": {
+        "type": "color",
+        "value": "{color.fg.warning}"
+      },
+      "success": {
+        "type": "color",
+        "value": "{color.fg.success}"
+      },
+      "on-color": {
+        "title": {
+          "type": "color",
+          "value": "{color.fg.on-dark.primary}"
+        },
+        "body": {
+          "type": "color",
+          "value": "{color.fg.on-dark.secondary}"
+        }
+      }
+    }
+  }
+}

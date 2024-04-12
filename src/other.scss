@@ -1,0 +1,7 @@
+::selection {
+    background:var(--color-bg-selection);
+}
+*:focus {
+    box-shadow: 0 0 0 8px rgba(0, 95, 175, 0.3);
+    border-radius: var(--border-radius-default);
+}

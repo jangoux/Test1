@@ -1,5 +1,8 @@
 /* propriedades gerais pra todos os alerts */
 
+@import 'src/typography.scss';
+
+
 .alert {
     padding-inline:var(--padding-300);
     padding-block:var(--padding-300);
@@ -33,7 +36,7 @@ display:flex;
 }
 
 .title-container{
-    font:var(--typography-paragraph-strong);
+  @extend .label-strong;
     color:var(--text-color-title);
     display:flex;
     flex:1;
@@ -57,7 +60,7 @@ display:flex;
 
 
 .description{
-    font:var(--typography-paragraph-regular);
+    @extend .p;
     color:var(--text-color-body);
     padding-left:var(--padding-600);
 }
@@ -68,6 +71,6 @@ display:flex;
     flex:1;
     justify-content: flex-end;
     row-gap: var(--gap-200);
-    background-color:red;
+    /* background-color:red; */
     margin-left:var(--padding-600);
 }

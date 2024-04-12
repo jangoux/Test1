@@ -1,0 +1,44 @@
+{
+  "form": {
+    "gap": {
+      "vertical": {
+        "value": "{gap.400}",
+        "type": "spacing"
+      },
+      "horizontal": {
+        "value": "{gap.200}",
+        "type": "spacing"
+      }
+    },
+    "padding": {
+      "top": {
+        "value": "{padding.500}",
+        "type": "spacing"
+      },
+      "bottom": {
+        "value": "{dimension.40}",
+        "type": "spacing"
+      },
+      "horizontal": {
+        "value": "{padding.500}",
+        "type": "spacing"
+      }
+    },
+    "header": {
+      "padding": {
+        "horizontal": {
+          "value": "{padding.300}",
+          "type": "spacing"
+        },
+        "vertical": {
+          "value": "{padding.200}",
+          "type": "spacing"
+        }
+      }
+    }
+  },
+  "title": {
+    "value": "{typography.h4}",
+    "type": "typography"
+  }
+}

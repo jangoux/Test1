@@ -1,0 +1,92 @@
+{
+  "button": {
+    "primary": {
+      "color": {
+        "default": {
+          "type": "color",
+          "value": "{color.bg.action}"
+        },
+        "hover": {
+          "type": "color",
+          "value": "{color.bg.action}",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{color.modifier.15}",
+                "space": "srgb",
+                "color": "{color.bg.hover} "
+              }
+            }
+          },
+          "description": "cor para elementos action quando o mouse for passado em cima (HOVER)"
+        },
+        "active": {
+          "type": "color",
+          "value": "{color.bg.action}",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "value": "{color.modifier.15}",
+                "space": "lch"
+              }
+            }
+          },
+          "description": "cor para elementos action quando pressionados (PRESSED)"
+        }
+      }
+    },
+    "warning": {
+      "color": {
+        "default": {
+          "type": "color",
+          "value": "{color.bg.warning.base}",
+          "description": "cor para uso em elementos action quando o mesmo tenha intuito de realizar uma operação indesejada"
+        },
+        "hover": {
+          "type": "color",
+          "value": "{color.bg.warning.base}",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "space": "hsl",
+                "value": "{color.modifier.15}"
+              }
+            }
+          },
+          "description": "cor para uso em elementos action quando o mesmo tenha intuito de realizar uma operação indesejada"
+        },
+        "active": {
+          "type": "color",
+          "value": "{color.bg.warning.base}",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "darken",
+                "space": "lch",
+                "value": "{color.modifier.15}"
+              }
+            }
+          },
+          "description": "cor para uso em elementos action quando o mesmo tenha intuito de realizar uma operação indesejada"
+        }
+      }
+    },
+    "size": {
+      "sm": {
+        "value": "{size.500}",
+        "type": "sizing"
+      },
+      "md": {
+        "value": "{size.600}",
+        "type": "sizing"
+      },
+      "lg": {
+        "value": "{size.700}",
+        "type": "sizing"
+      }
+    }
+  }
+}

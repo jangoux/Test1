@@ -1,201 +1,178 @@
+
+@import 'src/typography.scss';
+
+/* Nao consegui desabilitar o ripple dos botões */
+
 /* classe geral dos botões */
-
-
-
+.content {
+    display: flex;
+    flex:1;
+}
+.primary .mat-flat-button:hover {
+    background-color: pink;
+}
 .button {
     display:flex;
-    padding-inline:var(--padding-250);
+    flex-direction: row;
+    padding-inline: var(--padding-250);
     border-radius:var(--border-radius-default);
     width:fit-content;
     align-items: center;
+    border-width: var(--border-width-default);
+    border-style: solid;
+    
     
 }
 
 /* propriedades gerais dos labels */
 
 * > .label {
-    margin-inline:var(--padding-200);
-    font: var(--typography-label-medium);
+    margin-inline:var(--padding-100);
+    @extend .label-medium;
 }
 
 /*propriedades gerais de icones */
 
 * > .icon {
-    max-width:var(--size-300) !important;
-    height:var(--size-300) !important;
+    width:fit-content;
+    max-width:var(--icon-size-sm) !important;
+    max-height:var(--icon-size-sm) !important;
 }
+
 
 /* primary button */
 .primary{
-    background-color: #005faf !important; /* necessita token correto */
-    border-color: var(--border-color-action);
-   
-   
-}
-    
- 
-.primary:hover{
-    background-color: lighten(#005faf,7%) !important;
-}
-
-.primary:active{
-    background-color: darken(#005faf,7%) !important;
-}
-
-
-.primary > .label {
-        color:var(--text-color-on-color-title); 
-}
-    
-.primary > .icon {
+    background-color:var(--button-primary-color-default) !important;
+    border-color:var(--color-border-action);
+    &:hover {
+        background-color: var(--button-primary-color-hover) !important;
+    }
+    &:active{ 
+        background-color: var(--button-primary-color-active) !important;
+    }
+    .content>.label {
+        color: var(--text-color-on-color-title);       
+    }
+    .content>.icon {
         color:var(--icon-color-on-color);
+    }
 }
-
-  
-/* secondary button */
+    
+ /* secondary button */
 
 .secondary{
-        background-color: #fefefd !important; /* necessita token */
-        border-color: var(--border-color-action);
-
+        background-color: var(--container-color-primary);
+        border-color:var(--color-border-action);
+    &:hover{
+    background-color:var(--container-color-hover)!important;
+   }
+    &:active{
+    background-color: var(--container-color-active) !important;
+    }
+    .content> .label {
+    color:var(--text-color-action);
+    }
+    .content> .icon {
+    color:var(--icon-color-action)
+    }
 }
- 
-.secondary:hover{
-    background-color: #fefefd !important;
-   
-
-}
- 
-.secondary:active{
-    background-color: #fefefd !important;
-    
-
-}
-.secondary > .label {
-        color:var(--text-color-action);
-
-}
-        
- .secondary > .icon {
-     color:var(--icon-color-action);
- }
-
 /* warning button */
         
 .warning{
-     background-color: red !important;
-     border-color: var(--border-color-warning);
-       
-}
-
-/*hover e active de ambos os warnings */
-
-.warning:hover,.warning-secondary:hover{
-    background-color: red !important;
-   
-      
-}
-
-.warning:active,.warning-secondary:active{
-        background-color: red !important;
-        
-          
-   
-}
-        
-        
-.warning > .label {
-           color:var(--text-color-on-color-title);
-}
-        
-.warning > .icon {
-            color:var(--icon-color-on-color);
+     background-color: var(--button-warning-color-default) !important;
+     border-color:var(--color-border-warning);
+     &:hover{
+        background-color: var(--button-warning-color-hover) !important;
+    }
+    &:active{
+        background-color: var(--button-warning-color-active) !important;
+        }
+    .content> .label {
+    color:var(--text-color-on-color-title);
+    }
+    .content> .icon {
+        color:var(--icon-color-on-color);
+    }
 }
 
 /* warning secondary */
 
 .warning-secondary{
-    background-color: #fefefd !important;
-    border-color: var(--border-color-warning);
-    
+    background-color: var(--container-color-primary) !important;
+    border-color:var(--color-border-warning);
+    &:hover{
+        background-color: var(--button-warning-color-hover) !important;
+    }
+    &:active{
+        background-color: var(--button-warning-color-active) !important;
+    }
+    .content> .label {
+        color: var(--text-color-warning);
+    }
+    .content> .icon {
+        color:var(--icon-color-warning);
+    }
+    &:hover .content > .label {
+    color:var(--text-color-on-color-title);
     }
 
-
-    
-.warning-secondary> .label {
-    color:var(--text-color-warning);
-        
- }
-
- .warning-secondary> .icon {
+    &:hover .content > .icon {
     color:var(--icon-color-on-color);
-        
- }
-    
-
-.warning-secondary:hover,.warning-secondary:active > .label {
-    color:var(--text-color-on-color-title);
+    }    
 }
 
-.warning-secondary:hover,.warning-secondary:active > .icon {
-    color:var(--icon-color-on-color);
-}
+
+    
+
+    
+
 
 /* disabled */
 
 .disabled{
     background-color: var(--color-bg-disabled)!important;
-    border-color: var(--color-border-disabled);
-}
-            
-            
-.disabled > .label {
-    color: var(--text-color-disabled);
-}
-            
-.disabled > .icon {
+    border-color:var(--color-border-disabled) ;
+    border-width: 0;
+    .content > .label {
+        color:var(--text-color-disabled);
+    }
+    .content > .icon {
     color:var(--icon-color-disabled);
- }
-
+    }
+}
  /* tertiary button */
 
 .tertiary{
-background-color: #fefefd !important;
-border-color: var(--border-color-action);
-}
-
-.tertiary:hover{
-    background-color: #005faf !important;
-    
-}
-
-.tertiary:active{
-        background-color: #fefefd !important;
-       
-}
+background-color:var(--container-color-default) !important;
+border-color: var(--color-border-action);
+border-width: 0;
+border-style: solid;;
+    &:hover{
+        background-color:var(--container-color-hover) !important;
+    }
+    &:active{
+        background-color: var(--container-color-active) !important;
+    }
                 
-                
-.tertiary > .label {
-    color:var(--text-color-action);
-                    
+    .content> .label {
+        color: var(--text-color-action);
+    }
+    .content > .icon {
+        color:var(--icon-color-action);
 }
-                
-.tetriary > .icon {
-   color:var(--icon-color-action);
 }
-
             
 
 /* size variants */
 
 .size-lg {
-    height:var(--size-700);
+    height:var(--button-size-lg);
 }
 
 .size-md {
-    height:var(--size-600);
+    height:var(--button-size-md);
 }
 
 .size-sm {
-    height:var(--size-500);
+    height:var(--button-size-sm);
 }
