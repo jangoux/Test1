@@ -16,7 +16,7 @@
   
   .h2 {
     font-family: 'Roboto', sans-serif;
-    font-size: clamp(var(--font-size-700), 4vw,var(--typography-h2-font-size));
+    font-size: var(--typography-h2-font-size);
     font-weight:var(--typography-h2-font-weight);
     line-height:var(--typography-h2-line-height);
     letter-spacing: var(--typography-h2-letter-spacing);
@@ -27,7 +27,7 @@
   
   .h3 {
     font-family: 'Roboto', sans-serif;
-    font-size: clamp(var(--font-size-500), 4vw,var(--typography-h3-font-size));
+    font-size: var(--typography-h3-font-size);
     font-weight:var(--typography-h3-font-weight);
     line-height:var(--typography-h3-line-height);
     letter-spacing: var(--typography-h3-letter-spacing);
@@ -37,7 +37,7 @@
   
   .h4 {
     font-family: 'Roboto', sans-serif;
-    font-size: clamp(var(--font-size-300), 1.5vw,var(--typography-h4-font-size));
+    font-size: var(--typography-h4-font-size);
     font-weight:var(--typography-h4-font-weight);
     line-height:var(--typography-h4-line-height);
     letter-spacing: var(--typography-h4-letter-spacing);
@@ -48,7 +48,7 @@
   
   .p {
     font-family: 'Roboto', sans-serif;
-    font-size: clamp(var(--font-size-200), 1.5vw,var(--typography-paragraph-regular-font-size));
+    font-size: var(--typography-paragraph-regular-font-size);
     font-weight:var(--typography-paragraph-regular-font-weight);
     line-height:var(--typography-paragraph-regular-line-height);
     letter-spacing: var(--typography-paragraph-regular-letter-spacing);
@@ -107,7 +107,7 @@
   
   .label-regular {
     font-family: 'Roboto', sans-serif;
-    font-size: clamp(var(--font-size-200), 1.5vw,var(--typography-label-regular-font-size));
+    font-size: var(--typography-label-regular-font-size);
     font-weight:var(--typography-label-regular-font-weight);
     line-height:var(--typography-label-regular-line-height);
     letter-spacing: var(--typography-label-regular-letter-spacing);
@@ -151,12 +151,12 @@
 
 /*
 comentado caso não vá se usar a tipografia fluída
+*/
 
-
-@media screen and (max-width: 1024px) {
-    .h1 {
+@media screen and (max-width: 1366px) {
+  /*  .h1 {
         font-size: var(--font-size-800) ; 
-    }
+    } */
     .h2 {
         font-size: var(--font-size-700) ; 
     }
@@ -173,4 +173,4 @@ comentado caso não vá se usar a tipografia fluída
         font-size: var(--font-size-50);
     }
   }
-  */
+  

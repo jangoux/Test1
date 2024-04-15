@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { Router } from '@angular/router';
 
 
 @Component({
@@ -12,6 +13,11 @@ export class DssefaButtonComponent {
   @Input() size: 'lg' | 'md' | 'sm' = 'md';
   @Input() label: string = 'Label';
   @Input() variant: 'primary' | 'secondary' | 'tertiary' |'warning' | 'warning-secondary' | 'disabled'  = 'primary';
-  constructor() {}
+  @Input() path: string | null = null;
 
+ navigate () {
+  if (this.path) {
+    window.location.href = this.path ;
+  }
+ }
 }

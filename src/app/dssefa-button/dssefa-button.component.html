@@ -1,4 +1,4 @@
-<button class="button" mat-flat-button [disableRipple]="true"  [disabled]="variant === 'disabled'" [ngClass]="{
+<button class="button" mat-flat-button (click)="navigate()" [disableRipple]="true"  [disabled]="variant === 'disabled'" [ngClass]="{
     'primary': variant === 'primary',
     'secondary': variant === 'secondary',
     'warning': variant === 'warning',

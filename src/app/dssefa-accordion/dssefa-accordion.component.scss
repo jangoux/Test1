@@ -14,76 +14,83 @@
 }
   
     
-  .accordion-header-hover {
+  /* .accordion-header-hover {
    
     background-color: red;
     margin-block:auto;
     box-sizing: border-box;
   }
+  */
   
+  /* conteudo de texto do cabecalho */
+
   .title {
     @extend .label-strong;
-    color:#1E2224;
+    color:var(--text-color-title);
   }
   
   .description {
     @extend .small-regular;
-    color:#969696;
+    color:var(--text-color-description);
   }
   
+  
   .header {
-    max-height:56px;
+    max-height:var(--size-700);
+    background-color: var(--color-bg-primary);
+    min-height:56px;
+    
   }
   
   .accordion-header-hover:hover {
-    background-color: darken(#fefefd,05%);
-  
-    margin-block:auto;
+    background-color: var(--color-bg-hover);
+    /* margin-block:auto; */
   }
   
-  .mat-expansion-panel-header {
-    min-height:56px;
-    background-color:#fefefd;
-  }
+ /* nao se faz necessário, a classe header resolve
+ 
+ .mat-expansion-panel-header {
+    
+} */
   
   
   
   .mat-expansion-panel-header.mat-expanded,
   .mat-expansion-panel-header.mat-expanded:hover {
-    background: #0070c010;
+    background:var(--color-bg-hover);
   }
   
   .mat-expansion-panel-header,
   .mat-expansion-panel-header.mat-collapsed:hover {
-   background: #fefefd;
+   background: var(--color-bg-primary);
   }
   
-   
-::ng-deep .mat-expansion-indicator::after { color:#1E2224;}
+/* cor do chevron */
+::ng-deep .mat-expansion-indicator::after { color:var(-icon-color-default);}
 
 
-
- .mat-expansion-panel:hover {
+/*cor da borde em default e hover */
+.mat-expansion-panel:hover {
  
-    outline: 2px solid #005faf !important;
+    outline: var(--border-width-interaction) solid var(--color-border-interaction)!important;
     box-shadow: none !important;
-
-  
-  
 }
 
 .mat-expansion-panel {
  
-  outline: 1px solid darken(#fefefd, 30%);
+  outline: var(--border-width-default) solid var(--color-border-container);
   box-shadow: none !important;
 }
+
+/* remover a sombra */
 .mat-expansion-panel:not([class*=mat-elevation-z]) {
   box: shadow 0; }
 
-  .content {
-    background-color: #fefefd;
-    height:200px;
-    margin-inline:-24px;
-    margin-bottom:-24px;
-    padding:24px; /* padding-200 */
-  }
+.content {
+    background-color:var(--color-bg-primary);
+    /* esse margin foi  colocado pra alinhar o componente da forma que está construido no Ds */
+    margin:-24px;
+    
+    padding:var(--padding-400);
+    padding-block:var(--padding-600);
+}
